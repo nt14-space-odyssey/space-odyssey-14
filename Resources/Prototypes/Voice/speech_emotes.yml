@@ -28,6 +28,17 @@
     - yells
     - yelled
     - yelling
+    # RU-Localization-Start
+    - кричит
+    - кричит.
+    - кричит!
+    - орёт
+    - орёт.
+    - орёт!
+    - визжит
+    - визжит.
+    - визжит!
+    # RU-Localization-End
 
 - type: emote
   id: Laugh
@@ -57,6 +68,15 @@
     - chortle
     - chortles
     - chortling
+    # RU-Localization-Start
+    - смеется
+    - смеётся
+    - хохочет
+    - хихикает
+    - хихикнул
+    - хихикнула
+    - ржёт
+    # RU-Localization-End
 
 - type: emote
   id: Honk
@@ -74,6 +94,9 @@
     - honks
     - honked
     - honking
+    # RU-Localization-Start
+    - хонк
+    # RU-Localization-End
 
 - type: emote
   id: Sigh
@@ -91,6 +114,11 @@
     - sigh
     - sighs
     - sighed
+    # RU-Localization-Start
+    - вздыхает
+    - вздохнул
+    - вздохнула
+    # RU-Localization-End
 
 - type: emote
   id: Whistle
@@ -108,6 +136,10 @@
     - whistle
     - whistles
     - whistleblowing
+    # RU-Localization-Start
+    - свистит
+    - свистнул
+    # RU-Localization-End
 
 - type: emote
   id: Crying
@@ -128,6 +160,10 @@
     - sob
     - sobs
     - sobbing
+    # RU-Localization-Start
+    - плачет
+    - рыдает
+    # RU-Localization-End
 
 - type: emote
   id: Squish
@@ -146,6 +182,9 @@
     - squish
     - squishing
     - squishes
+    # RU-Localization-Start
+    - хлюпает
+    # RU-Localization-End
 
 - type: emote
   id: Chitter
@@ -164,6 +203,9 @@
    - chitter
    - chitters
    - chittered
+   # RU-Localization-Start
+   - стрекочет
+   # RU-Localization-End
 
 - type: emote
   id: Squeak
@@ -182,6 +224,9 @@
    - squeak
    - squeaks
    - squeaked
+   # RU-Localization-Start
+   - пищит
+   # RU-Localization-End
 
 - type: emote
   id: Click
@@ -199,6 +244,10 @@
   chatTriggers:
    - click
    - clicks
+   # RU-Localization-Start
+   - клац
+   - клацает
+   # RU-Localization-End
 
 # hand emotes
 - type: emote
@@ -218,6 +267,15 @@
     - claps
     - clapping
     - clapped
+    # RU-Localization-Start
+    - хлопает
+    - хлопнул
+    - хлопнула
+    - хлопает в ладоши
+    - хлопнул в ладоши
+    - хлопнула в ладоши
+    - апплодирует
+    # RU-Localization-End
 
 - type: emote
   id: Snap
@@ -241,6 +299,20 @@
     - snaps their fingers
     - snapping fingers
     - snapped fingers
+    # RU-Localization-Start
+    - щелкает
+    - щелкнул
+    - щелкнула
+    - щёлкает
+    - щёлкнул
+    - щёлкнула
+    - щелкает пальцами
+    - щелкнул пальцами
+    - щелкнула пальцами
+    - щёлкает пальцами
+    - щёлкнул пальцами
+    - щёлкнула пальцами
+    # RU-Localization-End
 
 - type: emote
   id: Thump
@@ -266,6 +338,13 @@
     - thumps her tail
     - thumps his tail
     - thumps its tail
+    # RU-Localization-Start
+    - стучит хвостом
+    - стукнул хвостом
+    - стукнула хвостом
+    - стукнул своим хвостом
+    - стукнула своим хвостом
+    # RU-Localization-End
 
 - type: emote
   id: Salute
@@ -282,6 +361,12 @@
   chatTriggers:
     - salute
     - salutes
+    # RU-Localization-Start
+    - салютует
+    - отдаёт честь
+    - отдал честь
+    - отдала честь
+    # RU-Localization-End
 
 - type: emote
   id: Gasp
@@ -328,6 +413,11 @@
     - buzz
     - buzzed
     - buzzes
+    # RU-Localization-Start
+    - жужжит
+    - зажужжал
+    - зажужжала
+    # RU-Localization-End
 
 - type: emote
   id: Weh
@@ -358,6 +448,9 @@
     - chirps
     - chirped
     - chirping
+    # RU-Localization-Start
+    - чирикает
+    # RU-Localization-End
 
 # Machine Emotes
 - type: emote
@@ -376,6 +469,9 @@
     - beeps
     - beeped
     - beeping
+    # RU-Localization-Start
+    - бип
+    # RU-Localization-End
 
 - type: emote
   id: Chime
@@ -393,6 +489,9 @@
     - chimes
     - chimed
     - chiming
+    # RU-Localization-Start
+    - дзынь
+    # RU-Localization-End
 
 - type: emote
   id: Buzz-Two
@@ -416,6 +515,14 @@
     - buzzes twice
     - buzzing twice
     - buzzed twice
+    # RU-Localization-Start
+    - бипбуп
+    - бип буп
+    - бип-буп
+    - бипбип
+    - бип бип
+    - бип-бип
+    # RU-Localization-End
 
 - type: emote
   id: Ping
@@ -433,3 +540,6 @@
     - pings
     - pinged
     - pinging
+    # RU-Localization-Start
+    - пинг
+    # RU-Localization-End

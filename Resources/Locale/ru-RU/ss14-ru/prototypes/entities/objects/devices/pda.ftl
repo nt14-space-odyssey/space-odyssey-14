@@ -149,3 +149,6 @@ ent-PiratePDA = КПК пирата
     .desc = Йарр!
 ent-SyndiAgentPDA = КПК агента Синдиката
     .desc = Когда лечения простых агентов Синдикатов недостаточно, займитесь лечением Ядерных оперативников!
+ent-ChameleonPDA = passenger PDA
+    .desc = Why isn't it gray?
+    .suffix = Chameleon

@@ -20,3 +20,11 @@ delivery-opened-others =
     } { $delivery }.
 delivery-unlock-verb = Разблокировать
 delivery-open-verb = Вскрыть
+delivery-slice-verb = Slice open
+delivery-teleporter-amount-examine =
+    { $amount ->
+        [one] It contains [color=yellow]{ $amount }[/color] delivery.
+       *[other] It contains [color=yellow]{ $amount }[/color] deliveries.
+    }
+delivery-teleporter-empty = The { $entity } is empty.
+delivery-teleporter-empty-verb = Take mail

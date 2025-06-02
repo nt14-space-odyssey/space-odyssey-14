@@ -42,5 +42,7 @@ ent-ClothingBackpackDuffelZombieBundle = зомби набор Синдикат�
     .desc = Универсальный набор для создания зомби на станции.
 ent-ClothingBackpackDuffelSyndicateMedicalBundleFilled = набор медикаментов
     .desc = Все, что нужно для возвращения в строй ваших товарищей: главным образом, боевая аптечка, дефибриллятор и три боевых медипена.
+ent-ClothingBackpackDuffelSyndicateFilledStarterKit = basic operative bundle
+    .desc = Contains a weapon, medical supplies, breaching tools, spare ammo, and some simple utilities.
 ent-ClothingBackpackDuffelSyndicateDecoyKitFilled = набор обманок
     .desc = Содержит отвлекающие устройства, как звуковые, так и визуальные. Скоро появятся и обонятельные.

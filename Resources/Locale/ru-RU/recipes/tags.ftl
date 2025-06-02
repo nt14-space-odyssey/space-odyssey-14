@@ -61,6 +61,7 @@ construction-graph-tag-match-stick = спичка
 construction-graph-tag-potato = картофель
 construction-graph-tag-wheat-bushel = сноп пшеницы
 construction-graph-tag-corgi-hide = шкура корги
+soil-construction-graph-any-mushroom = any mushroom
 # toys
 construction-graph-tag-rubber-ducky = резиновая уточка
 construction-graph-tag-ghost = плюшевый призрак
@@ -106,7 +107,6 @@ construction-graph-tag-wallmount-generator-circuit-board = микросхема 
 construction-graph-tag-wallmount-apu-circuit-board = микросхема настенной ВСУ
 construction-graph-tag-wallmount-substation-circuit-board = микросхема настенной подстанции
 construction-graph-tag-surveillance-camera-monitor-board = плата монитор камер наблюдения
-
 construction-graph-tag-television-board = плата телевизора
 construction-graph-tag-freezer-electronics = микросхема холодильника
 # crystals

@@ -34,7 +34,8 @@
 
 delivery-spam-1 =   Robust Toolbox - Special Offer!
     .desc =         An advertisement for robust toolboxes.
-    .content =      [color=blue][head=1]
+    .content =
+                    {"[color=blue][head=1]"}
                     ░░▄▀░░
                     ░▄█▄▄▀ [head=3]ROBUST - TOOLBOXES AND TOOLS[/head]
                     ██▀░░░ [/head][/color]
@@ -53,7 +54,8 @@ delivery-spam-1 =   Robust Toolbox - Special Offer!
 
 delivery-spam-2 =   Reasons to choose Nanotrasen!
     .desc =         An advertisement for Nanotrasen.
-    .content =      {-delivery-header-nanotrasen}
+    .content =
+                    {-delivery-header-nanotrasen}
 
                     {"[head=2]TOP THREE REASONS WHY THE SYNDICATE IS INCOMPETENT[/head]"}
 
@@ -68,7 +70,8 @@ delivery-spam-2 =   Reasons to choose Nanotrasen!
 
 delivery-spam-3 =   Reasons to choose The Syndicate!
     .desc =         An advertisement for The Syndicate.
-    .content =      {-delivery-header-syndicate}
+    .content =
+                    {-delivery-header-syndicate}
 
                     {"[head=2]TOP THREE REASONS WHY NANOTRASEN IS INCOMPETENT[/head]"}
 
@@ -83,7 +86,8 @@ delivery-spam-3 =   Reasons to choose The Syndicate!
 
 delivery-spam-4 =   Tired of science blowing up?
     .desc =         Follow these simple steps to ensure it never happens again!
-    .content =      [head=3]Science will LOVE you for this!!
+    .content =
+                    {"[head=3]Science will LOVE you for this!!"}
 
                     are [bold]YOU[/bold] Tired of your Station's Science Department blowing up withoutdoing any actual science?
                     Well Your in luck![/head]
@@ -101,7 +105,8 @@ delivery-spam-4 =   Tired of science blowing up?
 
 delivery-spam-5 =   FREE ALL AXCESS!!
     .desc =         Did you ever want free all access?!
-    .content =      [head=3]Have You ever wanted to have [italic][color=green]Free [bold]All Axcess!?!?[/bold][/color][/italic][/head]
+    .content =
+                    {"[head=3]Have You ever wanted to have [italic][color=green]Free [bold]All Axcess!?!?[/bold][/color][/italic][/head]"}
                     {"[head=2]Well NOW YOU CAN!![/head]!"}
 
                     All you need to do is call [color=blue]555-GOUR-LECKSSS[/color] and state your Staton ID# !!!
@@ -117,7 +122,8 @@ delivery-spam-5 =   FREE ALL AXCESS!!
 
 delivery-spam-6 =   NOTICE FROM NANOTRASN!!
     .desc =         An official notice from the CEO of Nanotrasn?!
-    .content =      [color=red] THIS IS AN OFICAL NOTICE FROM THE HEAD OF [color=blue]NANOTRASN[/color][/color]
+    .content =
+                    {"[color=red] THIS IS AN OFICAL NOTICE FROM THE HEAD OF [color=blue]NANOTRASN[/color][/color]"}
 
                     Dear Sir, Madam, or Other Insignificat station personell
 
@@ -129,7 +135,8 @@ delivery-spam-6 =   NOTICE FROM NANOTRASN!!
 
 delivery-spam-7 =   Send reinforcements!
     .desc =         An official notice from... an alternate timeline?
-    .content =      {-delivery-header-nanotrasen-alternate-timeline}
+    .content =
+                    {-delivery-header-nanotrasen-alternate-timeline}
                     {"[head=2]This is an official notice from the [color=red]Chief Security Officer[/color] at a Nanotrasen's Space Station 15.[/head]"}
 
                     To whoever receives this letter. I am Sergeant Rigel. My occupation is the CSO. We need immediate assistance.
@@ -142,7 +149,8 @@ delivery-spam-7 =   Send reinforcements!
 
 delivery-spam-8 =   The Children of Nar'Sie
     .desc =         A local cult is looking for recruits.
-    .content =      [color=#134975][head=2]The Children of Nar'Sie[/head][/color]
+    .content =
+                    {"[color=#134975][head=2]The Children of Nar'Sie[/head][/color]"}
                                                     The Beginning of a New Era
                     {"[bold]══──══──══──══──══──══──══──══──══──══──══[/bold]"}
 
@@ -161,7 +169,8 @@ delivery-spam-8 =   The Children of Nar'Sie
 
 delivery-spam-9 =   Do you want to fight?!
     .desc =         Advertisement for a local fighting club.
-    .content =      [color=#aaaaaa]▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[/color]
+    .content =
+                    {"[color=#aaaaaa]▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀[/color]"}
                                                 {"[bold][head=1]THE RAGE CAGE[/head][/bold]"}
                     {"[color=#aaaaaa]▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬[/color]"}
                     {"[bold][color=#FF0000][head=3]DO YOU WANT TO FIGHT?[/head][/color][/bold]"}
@@ -182,7 +191,8 @@ delivery-spam-9 =   Do you want to fight?!
 
 delivery-spam-10 =  DO NOT OPEN THIS MAIL
     .desc =         You have been cursed!
-    .content =      [color=#FF0000][bold][head=2]STOP[/head][/bold][/color]
+    .content =
+                    {"[color=#FF0000][bold][head=2]STOP[/head][/bold][/color]"}
 
                     If yore reading this letter...[color=#FF0000][head=3]YOUR ALRAEDY CURSED!!![/head][/color]
 
@@ -223,7 +233,8 @@ delivery-spam-10 =  DO NOT OPEN THIS MAIL
 
 delivery-spam-11 =  Help mom and dad!
     .desc =         Parents in need of financial support.
-    .content =      [bold]Hello Child,[/bold]
+    .content =
+                    {"[bold]Hello Child,[/bold]"}
                     This is your Parents writing to you: we are in need of money! Our taxes have been audited and we owe $100,000 in spesos to governnment! please help! they only want gift cards so you will need to send us 100 $1000 spesos Bisa gift cards.
 
                     please mail to:
@@ -239,7 +250,8 @@ delivery-spam-11 =  Help mom and dad!
 
 delivery-spam-12 =  Join us on the maiden voyage!
     .desc =         Advertisement for a relaxing voyage.
-    .content =      [head=2]Join us on the maiden voyage of the...[/head]
+    .content =
+                    {"[head=2]Join us on the maiden voyage of the...[/head]"}
 
                         ░█▀▀░█▀▀░░░█▀▄░█▀▀░█░░░█▀█░█░█░█▀█░█▀▄
                         ░▀▀█░▀▀█░░░█▀▄░█▀▀░█░░░█▀█░▄▀▄░█░█░█▀▄

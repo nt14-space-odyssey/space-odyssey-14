@@ -335,3 +335,5 @@ uplink-contraband-lighter-name = Коробка контрабандных за�
 uplink-contraband-lighter-desc = Загадочная коробка, в которой гарантировано будет брендовая зажигалка Синдиката. Не требует топлива.
 uplink-smuggler-satchel-name = Сумка контрабандиста
 uplink-smuggler-satchel-desc = Удобная, подозрительная на вид сумка. Достаточно плоская, чтобы поместиться под напольной плиткой.
+uplink-acolyte-armor-name = Acolyte Armor
+uplink-acolyte-armor-desc = The must have of any self respecting cult leader. An evil looking piece of armor, made of bones, and surprisingly resistant to damage.

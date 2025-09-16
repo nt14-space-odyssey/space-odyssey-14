@@ -1,4 +1,4 @@
-﻿ent-BoxFolderNuclearCodes = папка с кодами ядерной аутентификации
+ent-BoxFolderNuclearCodes = папка с кодами ядерной аутентификации
     .desc = { ent-BaseItem.desc }
 ent-BoxFolderBaseEmpty = папка
     .desc = Папка, заполненная совершенно секретными документами.
@@ -75,4 +75,3 @@ ent-BoxFolderCentComClipboardThreePapers = { ent-BoxFolderCentComClipboardEmpty 
     .desc = { ent-BoxFolderCentComClipboardEmpty.desc }
 ent-BoxFolderQmClipboard = цифровой планшет заявок
     .desc = Громоздкий цифровой планшет, содержащий информацию о поставках и финансовых операциях. При таком количестве компрометирующих документов его следует беречь.
-

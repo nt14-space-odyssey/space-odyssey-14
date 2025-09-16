@@ -1,4 +1,4 @@
-﻿contraband-examine-text-Minor = [color=yellow]Этот предмет считается мелкой контрабандой.[/color]
+contraband-examine-text-Minor = [color=yellow]Этот предмет считается мелкой контрабандой.[/color]
 contraband-examine-text-Restricted = [color=yellow]Этот предмет департаментно ограничен.[/color]
 contraband-examine-text-Restricted-department = [color=yellow]Этот предмет ограничен для { $departments }, и может считаться контрабандой.[/color]
 contraband-examine-text-Major = [color=red]Этот предмет считается крупной контрабандой.[/color]

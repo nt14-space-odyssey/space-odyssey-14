@@ -32,6 +32,11 @@ chat-emote-name-monkeyscreeches = Обезьяньи крики
 chat-emote-name-robotbeep = Робот
 chat-emote-name-yawn = Зевать
 chat-emote-name-snore = Храпеть
+chat-emote-name-bark = Bark
+chat-emote-name-snarl = Snarl
+chat-emote-name-whine = Whine
+chat-emote-name-howl = Howl
+chat-emote-name-growl = Growl
 # Сообщение
 chat-emote-msg-scream = кричит!
 chat-emote-msg-laugh = смеётся.

@@ -46,12 +46,13 @@
             #science (4)
             Scientist: [ 4, 4 ]
             ResearchAssistant: [ 3, 3 ] #intern, not counted
-            #security (12)
+            #security (13)
             Warden: [ 1, 1 ]
             SecurityOfficer: [ 8, 8 ]
             Detective: [ 1, 1 ]
             SecurityCadet: [ 4, 4 ] #intern, not counted
             Lawyer: [ 2, 2 ]
+            SecuritySapper: [1, 1]
             #supply (6)
             SalvageSpecialist: [ 3, 3 ]
             CargoTechnician: [ 3, 3 ]

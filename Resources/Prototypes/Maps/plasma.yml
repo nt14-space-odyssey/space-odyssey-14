@@ -49,12 +49,13 @@
             #science (4)
             Scientist: [ 4, 4 ]
             ResearchAssistant: [ 4, 4 ] #intern, not counted
-            #security (9 - 11)
+            #security (10 - 12)
             Warden: [ 1, 1 ]
             SecurityOfficer: [ 6, 8 ]
             Detective: [ 1, 2 ] #good cop, bad cop
             SecurityCadet: [ 4, 4 ] #intern, not counted
             Lawyer: [ 1, 2 ]
+            SecuritySapper: [1, 1]
             #supply (8 - 10)
             SalvageSpecialist: [ 4, 4 ] #the salvagers yearn for the mines
             CargoTechnician: [ 4, 6 ]

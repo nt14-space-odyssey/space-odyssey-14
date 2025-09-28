@@ -1,0 +1,43 @@
+- type: job
+  id: SecuritySapper
+  name: job-name-sapper
+  description: job-description-sapper
+  playTimeTracker: JobSecuritySapper
+  requirements:
+    - !type:DepartmentTimeRequirement
+      department: Security
+      time: 36000 #10 hrs
+  startingGear: SecuritySapperGear
+  icon: "JobIconSecurityOfficer"
+  supervisors: job-supervisors-hos
+  canBeAntag: false
+  access:
+  - Security
+  - Brig
+  - Maintenance
+  - Service
+  - External
+  - Cryogenics
+  special:
+  - !type:AddImplantSpecial
+    implants: [ MindShieldImplant ]
+
+- type: startingGear
+  id: SecuritySapperGear
+  equipment:
+    eyes: ClothingEyesGlassesSecurity
+    ears: ClothingHeadsetSecurity
+    pocket1: WeaponPistolMk58
+    belt: ClothingBeltUtilityEngineering
+    outerClothing: ClothingOuterSuitBomb
+    head: ClothingHeadHelmetBombSuit
+    jumpsuit: ClothingUniformJumpsuitSec
+    gloves: ClothingHandsGlovesCombat
+    shoes: ClothingShoesBootsJackFilled
+    id: SecurityPDA
+    back: ClothingBackpackSecurity
+    
+  storage:
+    back:
+    - Flash
+    - MagazinePistol

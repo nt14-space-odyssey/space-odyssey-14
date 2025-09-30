@@ -1,0 +1,38 @@
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatBeretBlueShield
+  name: берет офицера синий щит
+  description: Берет обыкновенный
+  components:
+  - type: Sprite
+    sprite: Clothing/Head/Hats/beret_blueshield.rsi
+  - type: Clothing
+    sprite: Clothing/Head/Hats/beret_blueshield.rsi
+  - type: Tag
+    tags:
+    - ClothMade
+    - HamsterWearable
+    - WhitelistChameleon
+    - PetWearable
+    - CorgiWearable
+
+- type: entity
+  parent: [ ClothingHeadBase, BaseCommandContraband ]
+  id: ClothingHeadHatBlueShieldcap
+  name: фуражка офицера синий щит
+  description: Фуражка обыкновенная.
+  components:
+  - type: Sprite
+    sprite: Clothing/Head/Hats/capblueshield.rsi
+  - type: Clothing
+    sprite: Clothing/Head/Hats/capblueshield.rsi
+  - type: Item
+    sprite: Clothing/Head/Hats/capblueshield.rsi
+  - type: Tag
+    tags:
+    - PetWearable
+    - CorgiWearable
+    - ClothMade
+    - Recyclable
+    - WhitelistChameleon
+    - HamsterWearable

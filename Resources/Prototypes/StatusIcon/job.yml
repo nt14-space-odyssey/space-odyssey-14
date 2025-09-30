@@ -35,6 +35,14 @@
 
 - type: jobIcon
   parent: JobIcon
+  id: JobIconBlueShieldOfficer
+  icon:
+    sprite: /Textures/Interface/Misc/job_icons.rsi
+    state: BlueShieldOfficer
+  jobName: job-name-blueshieldofficer
+
+- type: jobIcon
+  parent: JobIcon
   id: JobIconChiefEngineer
   icon:
     sprite: /Textures/Interface/Misc/job_icons.rsi

@@ -154,6 +154,38 @@
   - CaptainWintercoat
 
 - type: loadoutGroup
+  id: BlueShieldHead
+  name: Голова
+  minLimit: 0
+  loadouts:
+  - BlueShieldHead
+  - BlueShieldCap
+
+- type: loadoutGroup
+  id: BlueShieldJumpsuit
+  name: Комбинезон
+  minLimit: 1
+  loadouts:
+  - BlueShieldJumpsuit
+  - BlueShieldJumpsuitParad
+
+- type: loadoutGroup
+  id: BlueShieldBackpack
+  name: Хранилище
+  minLimit: 0
+  loadouts:
+  - BlueShieldBackpack
+  - BlueShieldDuffel
+  - BlueShieldSatchel
+
+- type: loadoutGroup
+  id: BlueShieldNeck
+  name: Плащ
+  minLimit: 0
+  loadouts:
+  - BlueShieldNeck
+
+- type: loadoutGroup
   id: HoPHead
   name: loadout-group-hop-head
   minLimit: 0

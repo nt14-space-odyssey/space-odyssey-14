@@ -1,0 +1,15 @@
+- type: entity
+  parent: [ClothingShoesMilitaryBase, BaseSecurityContraband]
+  id: ClothingShoesBootsJackBlueShield
+  name: ботинки офицера синий щит
+  description: Лимитированые ботинки с синий полосочкой!
+  components:
+  - type: Sprite
+    sprite: Clothing/Shoes/Boots/jackbootsblueshiel.rsi
+  - type: Clothing
+    sprite: Clothing/Shoes/Boots/jackbootsblueshiel.rsi
+  - type: ClothingSlowOnDamageModifier
+    modifier: 0.5
+  - type: FootstepModifier
+    footstepSoundCollection:
+      collection: FootstepBoots

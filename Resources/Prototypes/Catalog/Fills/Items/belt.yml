@@ -52,6 +52,16 @@
     - id: RadioHandheldSecurity
 
 - type: entity
+  id: ClothingBeltBlueShieldFilled
+  parent: ClothingBeltBlueShield
+  suffix: Filled
+  components:
+  - type: EntityTableContainerFill
+    containers:
+      storagebase: !type:NestedSelector
+        tableId: BeltSecurityEntityTable
+
+- type: entity
   id: ClothingBeltSecurityFilled
   parent: ClothingBeltSecurity
   suffix: Filled

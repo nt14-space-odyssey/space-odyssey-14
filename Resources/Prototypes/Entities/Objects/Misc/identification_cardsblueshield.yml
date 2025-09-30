@@ -1,0 +1,12 @@
+- type: entity
+  parent: IDCardStandard
+  id: BlueShieldOfficerIDCard
+  name: ID карта офицера синий щит
+  components:
+    - type: Sprite
+      sprite: Objects/Misc/id_cards.rsi
+      layers:
+        - state: centcom
+        - state: idblueshield
+    - type: PresetIdCard
+      job: BlueShieldOfficer

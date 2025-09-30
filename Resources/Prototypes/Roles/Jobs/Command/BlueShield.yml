@@ -1,0 +1,45 @@
+- type: job
+  id: BlueShieldOfficer
+  name: офицер синий щит
+  description: Вы - кадет ОБР, который защищает Командование станции ценой своей жизни. Помогайте сотрудникам ДСО, если те соизволили прибыть в сектор, а так же обеспечивайте безопасность Представителей ЦК, если те внезапно решили нагрянуть с проверкой.
+  playTimeTracker: JobBlueShieldOfficer
+  requirements:
+    - !type:DepartmentTimeRequirement
+      department: Security
+      time: 72000 # 20 hours
+    - !type:DepartmentTimeRequirement
+      department: Command
+      time: 36000 # 10 hours
+  weight: 10
+  startingGear: BlueShieldOfficerGear
+  icon: "JobIconBlueShieldOfficer"
+  joinNotifyCrew: true
+  supervisors: job-supervisors-centcom
+  canBeAntag: false
+  accessGroups:
+  - AllAccess
+  access:
+  - CentralCommand
+  special:
+  - !type:AddImplantSpecial
+    implants: [ MindShieldImplant ]
+  - !type:AddComponentSpecial
+    components:
+      - type: CommandStaff
+
+- type: startingGear
+  id: BlueShieldOfficerGear
+  equipment:
+    shoes: ClothingShoesBootsJackBlueShield
+    eyes: ClothingEyesGlassesBlueShield
+    gloves: ClothingHandsGlovesCombat
+    id: BlueShieldPDA
+    ears: ClothingHeadsetAltBlueShield
+    outerClothing: ClothingOuterArmorBasicBlueShield
+  storage:
+    back:
+    - Flash
+    - MedkitCombatFilled
+    - WeaponDisabler
+    - WeaponBlueShieldLaser
+    # - StationCharter

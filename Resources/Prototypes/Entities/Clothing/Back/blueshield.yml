@@ -1,0 +1,26 @@
+- type: entity
+  parent: [ClothingBackpack, BaseCommandContraband]
+  id: ClothingBackpackBlueShield
+  name: рюкзак офицера синий щит
+  description: Робастный рюкзак.
+  components:
+  - type: Sprite
+    sprite: Clothing/Back/Backpacks/blueshield.rsi
+
+- type: entity
+  parent: [ClothingBackpackDuffel, BaseCommandContraband]
+  id: ClothingBackpackDuffelBlueShield
+  name: вещмешок офицера синий щит
+  description: Робастный вещмешок
+  components:
+  - type: Sprite
+    sprite: Clothing/Back/Duffels/blueshield.rsi
+
+- type: entity
+  parent: [ClothingBackpackSatchel, BaseCommandContraband]
+  id: ClothingBackpackSatchelBlueShield
+  name: сумка офицера синий щит
+  description: Робастная сумка.
+  components:
+  - type: Sprite
+    sprite: Clothing/Back/Satchels/blueshield.rsi

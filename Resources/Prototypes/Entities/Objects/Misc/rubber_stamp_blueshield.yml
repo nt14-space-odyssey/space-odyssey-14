@@ -1,0 +1,12 @@
+- type: entity
+  name: печать ОСЩ
+  parent: [RubberStampBase, BaseCommandContraband]
+  id: RubberStampBlueShield
+  categories: [ DoNotMap ]
+  components:
+  - type: Stamp
+    stampedName: stamp-component-stamped-name-blueshield
+    stampedColor: "#002D74"
+    stampState: "paper_stamp-blueshield"
+  - type: Sprite
+    state: stamp-blueshield

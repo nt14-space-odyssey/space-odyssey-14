@@ -1,0 +1,19 @@
+- type: entity
+  parent: BaseMedicalPDA
+  id: BlueShieldPDA
+  name: КПК офицера синий щит
+  description: Обычный КПК. Наверное...
+  components:
+  - type: Pda
+    id: BlueShieldOfficerIDCard
+  - type: Appearance
+    appearanceDataInit:
+     enum.PdaVisuals.PdaType:
+       !type:String
+       pda-blueshield
+  - type: PdaBorderColor
+    borderColor: "#d7d7d0"
+    accentHColor: "#0000ff"
+    accentVColor: "#0000ff"
+  - type: Icon
+    state: pda-blueshield

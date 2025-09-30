@@ -1,0 +1,23 @@
+- type: entity
+  parent: [ClothingEyesBase, ShowSecurityIcons, BaseSecurityContraband, ShowMedicalIcons]
+  id: ClothingEyesGlassesBlueShield
+  name: очки офицера синий щит
+  description: Усовершенствованные очки СБ.
+  components:
+  - type: Sprite
+    sprite: Clothing/Eyes/Glasses/blueshieldglasses.rsi
+  - type: Clothing
+    sprite: Clothing/Eyes/Glasses/blueshieldglasses.rsi
+  - type: FlashImmunity
+  - type: ShowJobIcons
+  - type: ShowCriminalRecordIcons
+  - type: ShowMindShieldIcons
+  - type: EyeProtection
+    protectionTime: 5
+  - type: Tag
+    tags:
+    - HamsterWearable
+    - PetWearable
+    - WhitelistChameleon
+  - type: IdentityBlocker
+    coverage: EYES

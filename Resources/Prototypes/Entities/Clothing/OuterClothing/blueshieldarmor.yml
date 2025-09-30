@@ -1,7 +1,7 @@
 - type: entity
   parent: ClothingOuterArmorBase
   id: ClothingOuterArmorBasicBlueShield
-  name: бронежилет офицера синий щит
+  name: бронежилет офицера "Синий Щит"
   description: Защитные характеристики данного бронежилета превосходят обычных.
   components:
   - type: Sprite

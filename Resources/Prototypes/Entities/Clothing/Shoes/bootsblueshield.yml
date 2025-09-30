@@ -1,7 +1,7 @@
 - type: entity
   parent: [ClothingShoesMilitaryBase, BaseSecurityContraband]
   id: ClothingShoesBootsJackBlueShield
-  name: ботинки офицера синий щит
+  name: ботинки офицера "Синий Щит"
   description: Лимитированые ботинки с синий полосочкой!
   components:
   - type: Sprite

@@ -1,7 +1,7 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatBeretBlueShield
-  name: берет офицера синий щит
+  name: берет офицера "Синий Щит"
   description: Берет обыкновенный
   components:
   - type: Sprite
@@ -19,7 +19,7 @@
 - type: entity
   parent: [ ClothingHeadBase, BaseCommandContraband ]
   id: ClothingHeadHatBlueShieldcap
-  name: фуражка офицера синий щит
+  name: фуражка офицера "Синий Щит"
   description: Фуражка обыкновенная.
   components:
   - type: Sprite

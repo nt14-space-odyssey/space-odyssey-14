@@ -1,7 +1,7 @@
 - type: entity
   parent: [ClothingUniformBase, BaseCommandContraband, ClothingUniformFoldableBase]
   id: ClothingUniformJumpsuitBlueShield
-  name: комбинезон офицера синий щит
+  name: комбинезон офицера "Синий Щит"
   description: Красивый...
   components:
   - type: Sprite
@@ -10,7 +10,7 @@
 - type: entity
   parent: [ClothingUniformBase, BaseCommandContraband, ClothingUniformFoldableBase]
   id: ClothingUniformJumpsuitBlueShieldParad
-  name: торжественный комбинезон офицера синий щит
+  name: торжественный комбинезон офицера "Синий Щит"
   description: Очень красивый...
   components:
   - type: Sprite

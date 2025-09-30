@@ -1,0 +1,30 @@
+- type: entity
+  parent: [ ClothingHeadset, BaseCommandContraband ]
+  id: ClothingHeadsetBlueShield
+  name: гарнитура синий щит
+  description: Синяя гарнитура...
+  components:
+  - type: ContainerFill
+    containers:
+      key_slots:
+      - EncryptionKeyCentCom
+      - EncryptionKeyStationMaster
+  - type: Sprite
+    sprite: Clothing/Ears/Headsets/blueshield.rsi
+  - type: Clothing
+    sprite: Clothing/Ears/Headsets/blueshield.rsi
+
+- type: entity
+  parent: ClothingHeadsetAlt
+  id: ClothingHeadsetAltBlueShield
+  name: полноразмерная гарнитура синий щит
+  components:
+  - type: ContainerFill
+    containers:
+      key_slots:
+      - EncryptionKeyCentCom
+      - EncryptionKeyStationMaster
+  - type: Sprite
+    sprite: Clothing/Ears/Headsets/blueshield.rsi
+  - type: Clothing
+    sprite: Clothing/Ears/Headsets/blueshield.rsi

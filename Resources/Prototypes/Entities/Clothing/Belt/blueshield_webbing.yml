@@ -1,0 +1,34 @@
+- type: entity
+  id: ClothingBeltWebbingBlueShieldFilled
+  parent: ClothingBeltMilitaryWebbingMed
+  name: РПС офицера синий щит
+  description: РПС, которую носят офицеры "Синий Щит"
+  suffix: Заполненный
+  components:
+  - type: StorageFill
+    contents:
+      - id: WeaponRevolverDeckard
+      - id: SpeedLoaderMagnum
+      - id: SpeedLoaderMagnum
+      - id: SpeedLoaderMagnum
+      - id: Zipties
+      - id: Zipties
+      - id: EmergencyMedipen
+      - id: EmergencyMedipen
+      - id: CombatMedipen
+  - type: Sprite
+    sprite: Clothing/Belt/webbing_blueshield.rsi
+  - type: Clothing
+    sprite: Clothing/Belt/webbing_blueshield.rsi
+
+- type: entity
+  id: ClothingBeltWebbingBlueShield
+  parent: ClothingBeltMilitaryWebbingMed
+  name: РПС офицера "Синий Щит"
+  description: РПС, которую носят офицеры "Синий Щит"
+  components:
+  - type: Sprite
+    sprite: Clothing/Belt/webbing_blueshield.rsi
+  - type: Clothing
+    sprite: Clothing/Belt/webbing_blueshield.rsi
+    

@@ -12,6 +12,17 @@
   - GroupSpeciesBreathTool
 
 - type: roleLoadout
+  id: JobBlueShieldOfficer
+  groups:
+  - BlueShieldHead
+  - BlueShieldNeck
+  - BlueShieldJumpsuit
+  - BlueShieldBackpack
+  - Survival
+  - Trinkets
+  - GroupSpeciesBreathTool
+
+- type: roleLoadout
   id: JobHeadOfPersonnel
   groups:
   - GroupTankHarness

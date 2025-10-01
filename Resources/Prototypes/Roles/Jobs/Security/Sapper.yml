@@ -1,14 +1,14 @@
 - type: job
   id: SecuritySapper
-  name: job-name-sapper
-  description: job-description-sapper
+  name: Сапёр
+  description: На постоянной основе носите костюм сапёра и обезвреживайте учебные бомбы. В случае высокой загруженности отдела выполняйте обязанности Офицера СБ.
   playTimeTracker: JobSecuritySapper
   requirements:
     - !type:DepartmentTimeRequirement
       department: Security
       time: 36000 #10 hrs
   startingGear: SecuritySapperGear
-  icon: "JobIconSecurityOfficer"
+  icon: "JobIconSecuritySapper"
   supervisors: job-supervisors-hos
   canBeAntag: false
   access:
@@ -28,16 +28,17 @@
     eyes: ClothingEyesGlassesSecurity
     ears: ClothingHeadsetSecurity
     pocket1: WeaponPistolMk58
-    belt: ClothingBeltUtilityEngineering
+    belt:
     outerClothing: ClothingOuterSuitBomb
     head: ClothingHeadHelmetBombSuit
-    jumpsuit: ClothingUniformJumpsuitSec
+    jumpsuit: ClothingUniformJumpsuitSapper
     gloves: ClothingHandsGlovesCombat
     shoes: ClothingShoesBootsJackFilled
-    id: SecurityPDA
+    id:
     back: ClothingBackpackSecurity
-    
+
   storage:
     back:
     - Flash
     - MagazinePistol
+    - HoloprojectorSapper

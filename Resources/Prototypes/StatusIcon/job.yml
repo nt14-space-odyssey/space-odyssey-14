@@ -241,6 +241,14 @@
     state: Warden
   jobName: job-name-warden
 
+- type: jobIcon
+  parent: JobIcon
+  id: JobIconSecuritySapper
+  icon:
+    sprite: /Textures/Interface/Misc/job_icons.rsi
+    state: SecuritySapper
+  jobName: job-name-SecuritySapper
+
 # Service
 
 - type: jobIcon

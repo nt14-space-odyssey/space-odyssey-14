@@ -1,7 +1,7 @@
 - type: entity
   parent: [ClothingOuterHardsuitBase, BaseCommandContraband]
   id: ClothingOuterHardsuitBlueShield
-  name: скафандр офицера синий щит
+  name: скафандр офицера "Синий Щит"
   description: Бронированный скафандр...
   components:
   - type: Sprite

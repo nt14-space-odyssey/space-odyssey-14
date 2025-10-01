@@ -2,7 +2,7 @@
   name: MX-1 Лазерный пистолет
   parent: [BaseWeaponBatterySmall, BaseSecurityContraband]
   id: WeaponBlueShieldLaser
-  description: Экспериментальный лазерный пистолет MX-1 для офицеров Синий Щит
+  description: Экспериментальный лазерный пистолет MX-1 для офицеров "Синий Щит"
   components:
   - type: Item
     size: Normal  # Intentionally larger than other pistols

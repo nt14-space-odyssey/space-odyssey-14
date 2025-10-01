@@ -1,7 +1,7 @@
 - type: entity
   parent: IDCardStandard
   id: BlueShieldOfficerIDCard
-  name: ID карта офицера синий щит
+  name: ID карта офицера "Синий Щит"
   components:
     - type: Sprite
       sprite: Objects/Misc/id_cards.rsi

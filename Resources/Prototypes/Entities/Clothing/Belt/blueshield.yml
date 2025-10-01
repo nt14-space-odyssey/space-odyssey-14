@@ -1,7 +1,7 @@
 - type: entity
   parent: [ClothingBeltStorageBase, ContentsExplosionResistanceBase, BaseSecurityContraband]
   id: ClothingBeltBlueShield
-  name: пояс офицера синий щит
+  name: пояс офицера "Синий Щит"
   description: Обычный перекрашеный пояс сб.
   components:
   - type: Sprite

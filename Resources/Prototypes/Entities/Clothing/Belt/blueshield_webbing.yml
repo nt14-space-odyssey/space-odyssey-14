@@ -1,7 +1,7 @@
 - type: entity
   id: ClothingBeltWebbingBlueShieldFilled
   parent: ClothingBeltMilitaryWebbingMed
-  name: РПС офицера синий щит
+  name: РПС офицера "Синий Щит"
   description: РПС, которую носят офицеры "Синий Щит"
   suffix: Заполненный
   components:

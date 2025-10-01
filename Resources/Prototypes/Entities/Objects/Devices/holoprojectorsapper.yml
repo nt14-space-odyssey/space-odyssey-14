@@ -18,8 +18,8 @@
       price: 50
 
 - type: entity
-  parent: HoloprojectorSecurity
-  id: HoloprojectorSecurityEmpty
+  parent: HoloprojectorSapper
+  id: HoloprojectorSapperEmpty
   suffix: Empty
   components:
   - type: ItemSlots

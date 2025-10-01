@@ -61,7 +61,6 @@
       - state: green
       - state: qm
 
-
 - type: entity
   id: SpawnPointCargoTechnician
   parent: SpawnPointJobBase
@@ -322,6 +321,17 @@
       - state: captain
 
 - type: entity
+  id: SpawnPointBlueShield
+  parent: SpawnPointJobBase
+  name: Офицер "Синий Щит"
+  components:
+  - type: SpawnPoint
+    job_id: BlueShieldOfficer
+  - type: Sprite
+    layers:
+      - state: green
+
+- type: entity
   id: SpawnPointHeadOfPersonnel
   parent: SpawnPointJobBase
   name: headofpersonnel
@@ -472,6 +482,17 @@
     layers:
       - state: green
       - state: warden
+
+- type: entity
+  id: SpawnPointSecuritySapper
+  parent: SpawnPointJobBase
+  name: сапёр
+  components:
+  - type: SpawnPoint
+    job_id: SecuritySapper
+  - type: Sprite
+    layers:
+      - state: green
 
 - type: entity
   id: SpawnPointSecurityOfficer

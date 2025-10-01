@@ -110,10 +110,10 @@
   roles:
   - HeadOfSecurity
   - SecurityCadet
+  - SecuritySapper
   - SecurityOfficer
   - Detective
   - Warden
-  - SecuritySapper
 
 - type: department
   id: Science

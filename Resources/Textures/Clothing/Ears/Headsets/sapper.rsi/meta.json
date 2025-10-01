@@ -11,19 +11,14 @@
       "name": "icon"
     },
     {
-      "name": "equipped-INNERCLOTHING",
+      "name": "icon_alt"
+    },
+    {
+      "name": "equipped-EARS",
       "directions": 4
     },
     {
-      "name": "equipped-INNERCLOTHING-monkey",
-      "directions": 4
-    },
-    {
-      "name": "inhand-left",
-      "directions": 4
-    },
-    {
-      "name": "inhand-right",
+      "name": "alt-equipped-EARS",
       "directions": 4
     }
   ]

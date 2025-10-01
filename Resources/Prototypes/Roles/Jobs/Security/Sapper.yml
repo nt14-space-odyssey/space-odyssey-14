@@ -26,19 +26,17 @@
   id: SecuritySapperGear
   equipment:
     eyes: ClothingEyesGlassesSecurity
-    ears: ClothingHeadsetSecurity
+    ears: ClothingHeadsetSapper
     pocket1: WeaponPistolMk58
-    belt:
-    outerClothing: ClothingOuterSuitBomb
-    head: ClothingHeadHelmetBombSuit
     jumpsuit: ClothingUniformJumpsuitSapper
     gloves: ClothingHandsGlovesCombat
     shoes: ClothingShoesBootsJackFilled
-    id:
-    back: ClothingBackpackSecurity
+    id: SapperPDA
 
   storage:
     back:
     - Flash
     - MagazinePistol
     - HoloprojectorSapper
+    - ClothingOuterSuitBomb
+    - ClothingHeadHelmetBombSuit

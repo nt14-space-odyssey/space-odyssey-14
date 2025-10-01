@@ -1,0 +1,8 @@
+- type: entity
+  parent: [ClothingUniformBase, BaseCommandContraband, ClothingUniformFoldableBase]
+  id: ClothingUniformJumpsuitSapper
+  name: комбинезон сапёра
+  description: Зелёный костюм офицера сб.
+  components:
+  - type: Sprite
+    sprite: Clothing/Uniforms/Jumpsuit/security_green.rsi

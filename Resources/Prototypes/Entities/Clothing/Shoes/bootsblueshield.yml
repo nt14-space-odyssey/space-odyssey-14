@@ -12,4 +12,4 @@
     modifier: 0.5
   - type: FootstepModifier
     footstepSoundCollection:
-      collection: FootstepBoots
+      collection: FootstepSpurs

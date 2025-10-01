@@ -1,0 +1,17 @@
+- type: entity
+  parent: BaseSecurityPDA
+  id: SapperPDA
+  name: КПК сапёра
+  description: Красный, с зелёной полосочкой!
+  components:
+  - type: Pda
+    id: SapperIDCard
+  - type: Appearance
+    appearanceDataInit:
+     enum.PdaVisuals.PdaType:
+       !type:String
+       pda-sapper
+  - type: PdaBorderColor
+    borderColor: "#106d20"
+  - type: Icon
+    state: pda-sapper

@@ -36,6 +36,7 @@
     id: BlueShieldPDA
     ears: ClothingHeadsetAltBlueShield
     outerClothing: ClothingOuterArmorBasicBlueShield
+    back: ClothingBackpackBlueShield
   storage:
     back:
     - Flash

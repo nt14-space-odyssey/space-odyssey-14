@@ -1,0 +1,15 @@
+#belt
+- type: loadout
+  id: SapperWebbing
+  equipment:
+    belt: ClothingBeltSapperWebbing
+
+- type: loadout
+  id: SapperBelt
+  equipment:
+    belt: ClothingBeltSapper
+
+- type: loadout
+  id: SapperHead
+  equipment:
+     head: ClothingHeadHatBeretMerc

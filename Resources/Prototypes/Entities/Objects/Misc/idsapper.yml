@@ -1,0 +1,11 @@
+- type: entity
+  parent: IDCardStandard
+  id: SapperIDCard
+  name: ID карта сапёра
+  components:
+  - type: Sprite
+    layers:
+    - state: default
+    - state: idsapper
+  - type: PresetIdCard
+    job: SecuritySapper

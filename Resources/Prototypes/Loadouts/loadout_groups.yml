@@ -1097,6 +1097,24 @@
   - SecurityWebbing
 
 - type: loadoutGroup
+  id: SapperBelt
+  name: Сапёр, пояс
+  loadouts:
+  - SapperBelt
+  - SapperWebbing
+
+- type: loadoutGroup
+  id: SapperHead
+  name: Сапёр, головной убор
+  minLimit: 0
+  loadouts:
+  - SecurityHelmet
+  - SecurityBeret
+  - SecurityHat
+  - TrooperHat
+  - SapperHead
+
+- type: loadoutGroup
   id: SecurityOuterClothing
   name: loadout-group-security-outerclothing
   loadouts:

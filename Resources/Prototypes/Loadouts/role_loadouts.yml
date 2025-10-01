@@ -381,6 +381,19 @@
   - GroupSpeciesBreathToolSecurity
 
 - type: roleLoadout
+  id: JobSecuritySapper
+  groups:
+  - SapperHead
+  - SecurityBackpack
+  - SecurityOuterClothing
+  - SecurityShoes
+  - SapperBelt
+  - SurvivalSecurity
+  - Trinkets
+  - SecurityStar
+  - GroupSpeciesBreathToolSecurity
+
+- type: roleLoadout
   id: JobSecurityOfficer
   groups:
   - SecurityHead

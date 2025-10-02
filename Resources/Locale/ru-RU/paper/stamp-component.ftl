@@ -21,3 +21,4 @@ stamp-component-stamped-name-greytide = Грейтайд
 stamp-component-stamped-name-psychologist = Психолог
 stamp-component-stamped-name-wizard = Волшебник
 stamp-component-stamped-name-blueshield = Синий Щит
+stamp-component-stamped-name-magistrat = Магистрат

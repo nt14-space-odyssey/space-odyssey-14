@@ -24,6 +24,9 @@
             ChiefEngineer: [ 1, 1 ]
             ResearchDirector: [ 1, 1 ]
             Quartermaster: [ 1, 1 ]
+            #lawyer
+            Magistrat: [ 1, 1 ]
+            Lawyer: [ 2, 2 ]
             #Service (14)
             Bartender: [ 2, 2 ]
             Botanist: [ 3, 3 ]
@@ -51,7 +54,6 @@
             SecurityOfficer: [ 5, 7 ]
             Detective: [ 1, 1 ]
             SecurityCadet: [ 2, 4 ] #intern, exclude from dept count
-            Lawyer: [ 2, 2 ]
             SecuritySapper: [1, 1]
             #Supply (6)
             SalvageSpecialist: [ 3, 3 ]

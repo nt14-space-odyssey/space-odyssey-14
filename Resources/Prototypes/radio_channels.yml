@@ -21,6 +21,13 @@
   color: "#fcdf03"
 
 - type: radioChannel
+  id: Law
+  name: Юридический
+  keycode: 'ю' # RU-Localization
+  frequency: 1984
+  color: "#470089"
+
+- type: radioChannel
   id: Engineering
   name: chat-radio-engineering
   keycode: 'и' # RU-Localization
@@ -91,7 +98,7 @@
   id: Freelance
   name: chat-radio-freelance
   keycode: 'ф' # RU-Localization
-  frequency: 1984
+  frequency: 1985
   color: "#f6ce64"
   # long range since otherwise it'd defeat the point of a handheld radio independent of telecomms
   longRange: true

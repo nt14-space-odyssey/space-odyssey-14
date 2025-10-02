@@ -10,6 +10,7 @@
   - Survival
   - Trinkets
   - GroupSpeciesBreathTool
+  - plushie
 
 - type: roleLoadout
   id: JobBlueShieldOfficer
@@ -21,6 +22,7 @@
   - Survival
   - Trinkets
   - GroupSpeciesBreathTool
+  - plushie
 
 - type: roleLoadout
   id: JobHeadOfPersonnel
@@ -35,6 +37,35 @@
   - Survival
   - Trinkets
   - GroupSpeciesBreathTool
+  - plushie
+
+# Lawyer
+
+- type: roleLoadout
+  id: JobLawyer
+  groups:
+  - GroupTankHarness
+  - LawyerNeck
+  - LawyerJumpsuit
+  - CommonBackpack
+  - Glasses
+  - Survival
+  - Trinkets
+  - GroupSpeciesBreathTool
+  - plushie
+
+- type: roleLoadout
+  id: JobMagistrat
+  groups:
+  - GroupTankHarness
+  - MagistratNeck
+  - MagistratJumpsuit
+  - CommonBackpack
+  - Glasses
+  - Survival
+  - Trinkets
+  - GroupSpeciesBreathTool
+  - plushie
 
 # Silicons
 - type: roleLoadout
@@ -63,6 +94,7 @@
   - Survival
   - Trinkets
   - GroupSpeciesBreathTool
+  - plushie
 
 - type: roleLoadout
   id: JobBartender
@@ -76,6 +108,7 @@
   - Survival
   - Trinkets
   - GroupSpeciesBreathTool
+  - plushie
 
 - type: roleLoadout
   id: JobServiceWorker
@@ -87,6 +120,7 @@
   - Survival
   - Trinkets
   - GroupSpeciesBreathTool
+  - plushie
 
 - type: roleLoadout
   id: JobChef
@@ -101,6 +135,7 @@
   - Survival
   - Trinkets
   - GroupSpeciesBreathTool
+  - plushie
 
 - type: roleLoadout
   id: JobLibrarian
@@ -112,18 +147,7 @@
   - Survival
   - Trinkets
   - GroupSpeciesBreathTool
-
-- type: roleLoadout
-  id: JobLawyer
-  groups:
-  - GroupTankHarness
-  - LawyerNeck
-  - LawyerJumpsuit
-  - CommonBackpack
-  - Glasses
-  - Survival
-  - Trinkets
-  - GroupSpeciesBreathTool
+  - plushie
 
 - type: roleLoadout
   id: JobChaplain
@@ -140,6 +164,7 @@
   - Survival
   - Trinkets
   - GroupSpeciesBreathTool
+  - plushie
 
 - type: roleLoadout
   id: JobJanitor
@@ -155,6 +180,7 @@
   - Trinkets
   - JanitorPlunger
   - GroupSpeciesBreathTool
+  - plushie
 
 - type: roleLoadout
   id: JobBotanist
@@ -168,6 +194,7 @@
   - Survival
   - Trinkets
   - GroupSpeciesBreathTool
+  - plushie
 
 - type: roleLoadout
   id: JobClown
@@ -182,6 +209,7 @@
   - Glasses
   - SurvivalClown
   - Trinkets
+  - plushie
 
 - type: roleLoadout
   id: JobMime
@@ -197,6 +225,7 @@
   - Glasses
   - SurvivalMime
   - Trinkets
+  - plushie
 
 - type: roleLoadout
   id: JobMusician
@@ -210,6 +239,7 @@
   - Trinkets
   - Instruments
   - GroupSpeciesBreathTool
+  - plushie
 
 # Cargo
 - type: roleLoadout
@@ -226,6 +256,7 @@
   - Survival
   - Trinkets
   - GroupSpeciesBreathTool
+  - plushie
 
 - type: roleLoadout
   id: JobCargoTechnician
@@ -241,6 +272,7 @@
   - Survival
   - Trinkets
   - GroupSpeciesBreathTool
+  - plushie
 
 - type: roleLoadout
   id: JobSalvageSpecialist
@@ -253,6 +285,7 @@
   - Survival
   - Trinkets
   - GroupSpeciesBreathTool
+  - plushie
 
 # Engineering
 - type: roleLoadout
@@ -268,6 +301,7 @@
   - SurvivalExtended
   - Trinkets
   - GroupSpeciesBreathTool
+  - plushie
 
 - type: roleLoadout
   id: JobTechnicalAssistant
@@ -278,6 +312,7 @@
   - SurvivalExtended
   - Trinkets
   - GroupSpeciesBreathTool
+  - plushie
 
 - type: roleLoadout
   id: JobStationEngineer
@@ -292,6 +327,7 @@
   - SurvivalExtended
   - Trinkets
   - GroupSpeciesBreathTool
+  - plushie
 
 - type: roleLoadout
   id: JobAtmosphericTechnician
@@ -304,6 +340,7 @@
   - SurvivalExtended
   - Trinkets
   - GroupSpeciesBreathTool
+  - plushie
 
 # Science
 - type: roleLoadout
@@ -321,6 +358,7 @@
   - Survival
   - Trinkets
   - GroupSpeciesBreathTool
+  - plushie
 
 - type: roleLoadout
   id: JobScientist
@@ -338,6 +376,7 @@
   - Survival
   - Trinkets
   - GroupSpeciesBreathTool
+  - plushie
 
 - type: roleLoadout
   id: JobResearchAssistant
@@ -349,6 +388,7 @@
   - Survival
   - Trinkets
   - GroupSpeciesBreathTool
+  - plushie
 
 # Security
 - type: roleLoadout
@@ -365,6 +405,7 @@
   - Trinkets
   - SecurityStar
   - GroupSpeciesBreathToolSecurity
+  - plushie
 
 - type: roleLoadout
   id: JobWarden
@@ -379,6 +420,7 @@
   - Trinkets
   - SecurityStar
   - GroupSpeciesBreathToolSecurity
+  - plushie
 
 - type: roleLoadout
   id: JobSecuritySapper
@@ -392,6 +434,7 @@
   - Trinkets
   - SecurityStar
   - GroupSpeciesBreathToolSecurity
+  - plushie
 
 - type: roleLoadout
   id: JobSecurityOfficer
@@ -407,6 +450,7 @@
   - Trinkets
   - SecurityStar
   - GroupSpeciesBreathToolSecurity
+  - plushie
 
 - type: roleLoadout
   id: JobDetective
@@ -421,6 +465,7 @@
   - Trinkets
   - SecurityStar
   - GroupSpeciesBreathToolSecurity
+  - plushie
 
 - type: roleLoadout
   id: JobSecurityCadet
@@ -430,6 +475,7 @@
   - SurvivalSecurity
   - Trinkets
   - GroupSpeciesBreathToolSecurity
+  - plushie
 
 # Medical
 - type: roleLoadout
@@ -448,6 +494,7 @@
   - SurvivalMedical
   - Trinkets
   - GroupSpeciesBreathToolMedical
+  - plushie
 
 - type: roleLoadout
   id: JobMedicalDoctor
@@ -465,6 +512,7 @@
   - SurvivalMedical
   - Trinkets
   - GroupSpeciesBreathToolMedical
+  - plushie
 
 - type: roleLoadout
   id: JobMedicalIntern
@@ -476,6 +524,7 @@
   - SurvivalMedical
   - Trinkets
   - GroupSpeciesBreathToolMedical
+  - plushie
 
 - type: roleLoadout
   id: JobChemist
@@ -490,6 +539,7 @@
   - SurvivalMedical
   - Trinkets
   - GroupSpeciesBreathToolMedical
+  - plushie
 
 - type: roleLoadout
   id: JobParamedic
@@ -506,6 +556,7 @@
   - SurvivalMedical
   - Trinkets
   - GroupSpeciesBreathToolMedical
+  - plushie
 
 # Wildcards
 - type: roleLoadout
@@ -517,6 +568,7 @@
   - Survival
   - Trinkets
   - GroupSpeciesBreathTool
+  - plushie
 
 - type: roleLoadout
   id: JobReporter
@@ -528,6 +580,7 @@
   - Survival
   - Trinkets
   - GroupSpeciesBreathTool
+  - plushie
 
 - type: roleLoadout
   id: JobPsychologist
@@ -539,6 +592,7 @@
   - Survival
   - Trinkets
   - GroupSpeciesBreathTool
+  - plushie
 
 - type: roleLoadout
   id: JobBoxer
@@ -551,6 +605,7 @@
   - Survival
   - Trinkets
   - GroupSpeciesBreathTool
+  - plushie
 
 # These loadouts are used for non-crew spawns, like off-station antags and event mobs
 # They will be used without player configuration, thus they will only ever apply what is forced by MinLimit

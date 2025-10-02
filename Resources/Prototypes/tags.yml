@@ -528,6 +528,9 @@
   id: EncryptionCommand
 
 - type: Tag
+  id: EncryptionLaw
+
+- type: Tag
   id: EncryptionCommon
 
 - type: Tag

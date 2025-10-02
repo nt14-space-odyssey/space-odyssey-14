@@ -226,7 +226,7 @@
       - EncryptionKeyCommon
 
 - type: entity
-  parent: [ClothingHeadset, BaseSecurityLawyerContraband]
+  parent: [ClothingHeadset, BaseSecurityContraband]
   id: ClothingHeadsetSecurity
   name: security headset
   description: This is used by your elite security force.
@@ -240,6 +240,40 @@
     sprite: Clothing/Ears/Headsets/security.rsi
   - type: Clothing
     sprite: Clothing/Ears/Headsets/security.rsi
+
+- type: entity
+  parent: [ClothingHeadset, BaseSecurityLawyerContraband]
+  id: ClothingHeadsetLaw
+  name: гарнитура юриста
+  description: Гарнитура послушника магистрата.
+  components:
+  - type: ContainerFill
+    containers:
+      key_slots:
+      - EncryptionKeyLaw
+      - EncryptionKeyCommon
+  - type: Sprite
+    sprite: Clothing/Ears/Headsets/security.rsi
+  - type: Clothing
+    sprite: Clothing/Ears/Headsets/security.rsi
+
+- type: entity
+  parent: [ClothingHeadset, BaseCentcommContraband]
+  id: ClothingHeadsetMagistrat
+  name: гарнитура магистрата
+  description: Гарнитура элиты...
+  components:
+  - type: ContainerFill
+    containers:
+      key_slots:
+      - EncryptionKeyCentCom
+      - EncryptionKeyCommand
+      - EncryptionKeyLaw
+      - EncryptionKeyCommon
+  - type: Sprite
+    sprite: Clothing/Ears/Headsets/magistrat.rsi
+  - type: Clothing
+    sprite: Clothing/Ears/Headsets/magistrat.rsi
 
 - type: entity
   parent: [ClothingHeadset, BaseSecurityContraband]

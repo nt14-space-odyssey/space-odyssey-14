@@ -128,6 +128,17 @@
 
 - type: entity
   parent: [ ClothingUniformBase, BaseCentcommContraband ]
+  id: ClothingUniformJumpsuitMagistrat
+  name: зелёный комбинезон магистрата
+  description: Носят только магистраты! Наверное...
+  components:
+  - type: Sprite
+    sprite: Clothing/Uniforms/Jumpsuit/centcom_agent.rsi
+  - type: Clothing
+    sprite: Clothing/Uniforms/Jumpsuit/centcom_agent.rsi
+
+- type: entity
+  parent: [ ClothingUniformBase, BaseCentcommContraband ]
   id: ClothingUniformJumpsuitCentcomOfficial
   name: CentComm official's jumpsuit
   description: It's a jumpsuit worn by CentComm's officials.

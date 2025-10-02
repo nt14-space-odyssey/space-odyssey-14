@@ -10,27 +10,36 @@
     - !type:DepartmentTimeRequirement
       department: Command
       time: 108000 # 30 hours
+  weight: 10
   startingGear: MagistratGear
-  icon: "JobIconLawyer"
+  icon: "JobIconMagistrat"
   supervisors: Центральному Командованию
   access:
   - Lawyer
   - Brig
   - Maintenance
   - Command
+  special:
+  - !type:AddImplantSpecial
+    implants: [ MindShieldImplant ]
+  - !type:AddComponentSpecial
+    components:
+      - type: CommandStaff
 
 - type: startingGear
   id: MagistratGear
   equipment:
     shoes: ClothingShoesBootsLaceup
     id: MagistratPDA
-    ears: ClothingHeadsetSecurity
+    ears: ClothingHeadsetMagistrat
     head: ClothingHeadHatPwig
+    outerclothing: ClothingOuterRobesJudge
+    eyes: ClothingEyesGlassesSecurity
   inhand:
     - BriefcaseBrownFilled
   storage:
     back:
-    - RubberStampLawyer
+    - RubberStampMagistrat
     - BookSpaceLaw
     - MagistratHammer
     - PenMagistrat

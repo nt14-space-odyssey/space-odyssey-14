@@ -89,6 +89,16 @@
     state: QuarterMaster
   jobName: job-name-qm
 
+# juridical
+
+- type: jobIcon
+  parent: JobIcon
+  id: JobIconMagistrat
+  icon:
+    sprite: /Textures/Interface/Misc/job_icons.rsi
+    state: magistrat
+  jobName: job-name-magistrat
+
 # Engineering
 
 - type: jobIcon

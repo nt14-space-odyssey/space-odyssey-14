@@ -191,6 +191,17 @@
       ]
     },
     {
+      "name": "pda-magistrat",
+      "delays": [
+        [
+          1.2,
+          1.2,
+          1.2,
+          1.2
+        ]
+      ]
+    },
+    {
       "name": "pda-virology"
     },
     {

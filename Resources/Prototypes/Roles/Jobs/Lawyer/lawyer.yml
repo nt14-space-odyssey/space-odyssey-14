@@ -1,16 +1,15 @@
 - type: job
   id: Lawyer
-  name: job-name-lawyer
-  description: job-description-lawyer
+  name: Юрист
+  description: Охраняйте честь и достоинство экипажа на допросах, помогайте составлять документ на выдачу диска ядерной аутентификации пассажиру станции и проводите юридические консультации по запросу сотрудников станции.
   playTimeTracker: JobLawyer
   requirements:
     - !type:OverallPlaytimeRequirement
       time: 9000 # 2.5 hrs
   startingGear: LawyerGear
   icon: "JobIconLawyer"
-  supervisors: job-supervisors-hop
+  supervisors: Агенту Внутренних Дел и Магистрату
   access:
-  - Service
   - Lawyer
   - Brig
   - Maintenance

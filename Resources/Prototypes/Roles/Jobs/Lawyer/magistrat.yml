@@ -1,0 +1,36 @@
+- type: job
+  id: Magistrat
+  name: Магистрат
+  description: Организовывайте суды, регулируйте работу Юридического Департамента и жалуйтесь Оператору Центрального Командования как же вам тяжко на станции, по ключу шифрования ЦК.
+  playTimeTracker: JobMagistrat
+  requirements:
+    - !type:DepartmentTimeRequirement
+      department: Security
+      time: 180000 # 50 hours
+    - !type:DepartmentTimeRequirement
+      department: Command
+      time: 108000 # 30 hours
+  startingGear: MagistratGear
+  icon: "JobIconLawyer"
+  supervisors: Центральному Командованию
+  access:
+  - Lawyer
+  - Brig
+  - Maintenance
+  - Command
+
+- type: startingGear
+  id: MagistratGear
+  equipment:
+    shoes: ClothingShoesBootsLaceup
+    id: MagistratPDA
+    ears: ClothingHeadsetSecurity
+    head: ClothingHeadHatPwig
+  inhand:
+    - BriefcaseBrownFilled
+  storage:
+    back:
+    - RubberStampLawyer
+    - BookSpaceLaw
+    - MagistratHammer
+    - PenMagistrat

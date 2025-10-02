@@ -20,6 +20,7 @@
     {"name": "ce_label"},
     {"name": "cmo_label"},
     {"name": "com_label"},
+    {"name": "law_label"},
     {"name": "eng_label"},
     {"name": "hop_label"},
     {"name": "hos_label"},

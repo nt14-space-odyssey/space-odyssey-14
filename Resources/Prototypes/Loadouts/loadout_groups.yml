@@ -4,7 +4,7 @@
   id: plushie
   name: Плюшки, игрушки
   minLimit: 0
-  masLimit: 5
+  maxLimit: 7
   loadouts:
   - PlushieLizard
   - PlushieSpaceLizard

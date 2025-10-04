@@ -60,9 +60,9 @@
     state: icon
   - type: MeleeWeapon
     wideAnimationRotation: -135
-    attackRate: 10
+    attackRate: 15
   - type: Item
-    size: Ginormous
+    size: Small
     sprite: Objects/Weapons/Melee/Throngler-in-hand.rsi
   - type: FoodSequenceElement
     entries:
@@ -344,7 +344,7 @@
 - type: entity
   parent: BasePlushie
   id: PlushieLizard #Weh!
-  name: lizard plushie
+  name: плюшевый унатя
   description: An adorable stuffed toy that resembles a lizardperson. Made by CentComm as a token initiative to combat speciesism in work environments. "Welcome your new colleagues as you do this plush, with open arms!"
   components:
   - type: Sprite
@@ -458,7 +458,7 @@
 - type: entity
   parent: PlushieLizard
   id: PlushieRainbowLizard #Weh but gay
-  name: rainbow lizard plushie
+  name: разноцветный плюшевый унатя
   description: An adorable stuffed toy that resembles a lizardperson of every color. You just might trip while staring at it...
   components:
   - type: Sprite
@@ -494,7 +494,7 @@
 - type: entity
   parent: PlushieLizard
   id: PlushieSpaceLizard #ᵂᵉʰ!
-  name: space lizard plushie
+  name: космический плюшевый унатя
   description: An adorable stuffed toy that resembles a lizardperson in an EVA suit. Made by CentComm as a token initiative to combat speciesism in space environments. "Welcome your new colleagues as you do this plush, with open arms!"
   components:
   - type: Sprite

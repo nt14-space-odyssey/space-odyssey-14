@@ -241,6 +241,25 @@
     state: pda-interncadet
 
 - type: entity
+  parent: BaseSecurityPDA
+  id: MagistratPDA
+  name: КПК Магистрата
+  description: Чёрный с золотыми вставками!
+  components:
+  - type: Pda
+    id: MagistratIDCard
+  - type: Appearance
+    appearanceDataInit:
+     enum.PdaVisuals.PdaType:
+       !type:String
+       pda-magistrat
+  - type: PdaBorderColor
+    borderColor: "#8a8130"
+    accentVColor: "#222219"
+  - type: Icon
+    state: pda-magistrat
+
+- type: entity
   parent: BasePDA
   id: ResearchAssistantPDA
   name: research assistant PDA

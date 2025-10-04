@@ -89,6 +89,24 @@
     state: QuarterMaster
   jobName: job-name-qm
 
+# Law
+
+- type: jobIcon
+  parent: JobIcon
+  id: JobIconMagistrat
+  icon:
+    sprite: /Textures/Interface/Misc/job_icons.rsi
+    state: magistrat
+  jobName: job-name-magistrat
+
+- type: jobIcon
+  parent: JobIcon
+  id: JobIconLawyer
+  icon:
+    sprite: /Textures/Interface/Misc/job_icons.rsi
+    state: Lawyer
+  jobName: job-name-lawyer
+
 # Engineering
 
 - type: jobIcon
@@ -298,14 +316,6 @@
     sprite: /Textures/Interface/Misc/job_icons.rsi
     state: Janitor
   jobName: job-name-janitor
-
-- type: jobIcon
-  parent: JobIcon
-  id: JobIconLawyer
-  icon:
-    sprite: /Textures/Interface/Misc/job_icons.rsi
-    state: Lawyer
-  jobName: job-name-lawyer
 
 - type: jobIcon
   parent: JobIcon

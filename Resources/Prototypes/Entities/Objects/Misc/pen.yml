@@ -119,6 +119,17 @@
     heldPrefix: pen_centcom
 
 - type: entity
+  name: Ручка судьи
+  parent: [BaseAdvancedPen, BaseCentcommContraband]
+  id: PenMagistrat
+  description: Ручка справедливого судьи для справедливого суда!
+  components:
+  - type: Sprite
+    state: pen_magistrat
+  - type: Item
+    heldPrefix: pen_magistrat
+
+- type: entity
   name: captain's fountain pen
   parent: PenEmbeddable
   id: PenCap

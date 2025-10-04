@@ -136,6 +136,18 @@
 
 - type: entity
   parent: IDCardStandard
+  id: MagistratIDCard
+  name: ID карта магистрата
+  components:
+  - type: Sprite
+    layers:
+    - state: silver
+    - state: idmagistrat
+  - type: PresetIdCard
+    job: Magistrat
+
+- type: entity
+  parent: IDCardStandard
   id: WardenIDCard
   name: warden ID card
   components:

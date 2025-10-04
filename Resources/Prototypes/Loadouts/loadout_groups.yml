@@ -1,3 +1,35 @@
+# plushes!
+
+- type: loadoutGroup
+  id: plushie
+  name: Плюшки, игрушки
+  minLimit: 0
+  maxLimit: 7
+  loadouts:
+  - PlushieLizard
+  - PlushieSpaceLizard
+  - PlushieRainbowLizard
+  - PlushieArachind
+  - PlushieAtmosian
+  - PlushieBee
+  - PlushieDiona
+  - PlushieExperiment
+  - PlushieHampter
+  - PlushieLizard
+  - PlushieLizardInversed
+  - PlushieMoth
+  - PlushieNar
+  - PlushiePenguin
+  - PlushieRainbowLizard
+  - PlushieRatvar
+  - PlushieRGBee
+  - PlushieSharkBlue
+  - PlushieSharkGrey
+  - PlushieSharkPink
+  - PlushieSnake
+  - PlushieThrongler
+  - PlushieVox
+
 # Miscellaneous
 - type: loadoutGroup
   id: Trinkets
@@ -222,6 +254,30 @@
   minLimit: 0
   loadouts:
   - HoPWintercoat
+
+# Lawyer
+
+- type: loadoutGroup
+  id: MagistratJumpsuit
+  name: Магистрат, комбинезон
+  loadouts:
+  - MagistratJumpsuitB
+  - MagistratJumpsuitA
+  - MagistratJumpskirtA
+
+- type: loadoutGroup
+  id: MagistratNeck
+  name: Магистрат, значок
+  loadouts:
+  - MagistratNeck
+  - LawyerNeck
+
+- type: loadoutGroup
+  id: MagistratHead
+  name: Магистрат, парик
+  loadouts:
+  - MagistratPwigA
+  - MagistratPwigB
 
 # Civilian
 - type: loadoutGroup

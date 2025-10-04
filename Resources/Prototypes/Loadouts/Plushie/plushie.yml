@@ -1,0 +1,126 @@
+# plushie
+- type: loadout
+  id: PlushieLizard
+  storage:
+    back:
+    - PlushieLizard
+
+- type: loadout
+  id: PlushieSpaceLizard
+  storage:
+    back:
+    - PlushieSpaceLizard
+
+- type: loadout
+  id: PlushieRainbowLizard
+  storage:
+    back:
+    - PlushieRainbowLizard
+
+- type: loadout
+  id: PlushiePenguin
+  storage:
+    back:
+    - PlushiePenguin
+
+- type: loadout
+  id: PlushieMoth
+  storage:
+    back:
+    - PlushieMoth
+
+- type: loadout
+  id: PlushieSharkBlue
+  storage:
+    back:
+    - PlushieSharkBlue
+
+- type: loadout
+  id: PlushieSharkGrey
+  storage:
+    back:
+    - PlushieSharkGrey
+
+- type: loadout
+  id: PlushieSharkPink
+  storage:
+    back:
+    - PlushieSharkPink
+
+- type: loadout
+  id: PlushieHampter
+  storage:
+    back:
+    - PlushieHampter
+
+- type: loadout
+  id: PlushieThrongler
+  storage:
+    back:
+    - PlushieThrongler
+
+- type: loadout
+  id: PlushieLizardInversed
+  storage:
+    back:
+    - PlushieLizardInversed
+
+- type: loadout
+  id: PlushieNar
+  storage:
+    back:
+    - PlushieNar
+
+- type: loadout
+  id: PlushieExperiment
+  storage:
+    back:
+    - PlushieExperiment
+
+- type: loadout
+  id: PlushieDiona
+  storage:
+    back:
+    - PlushieDiona
+
+- type: loadout
+  id: PlushieSnake
+  storage:
+    back:
+    - PlushieSnake
+
+- type: loadout
+  id: PlushieRGBee
+  storage:
+    back:
+    - PlushieRGBee
+
+- type: loadout
+  id: PlushieBee
+  storage:
+    back:
+    - PlushieBee
+
+- type: loadout
+  id: PlushieRatvar
+  storage:
+    back:
+    - PlushieRatvar
+
+- type: loadout
+  id: PlushieArachind
+  storage:
+    back:
+    - PlushieArachind
+
+- type: loadout
+  id: PlushieAtmosian
+  storage:
+    back:
+    - PlushieAtmosian
+
+- type: loadout
+  id: PlushieVox
+  storage:
+    back:
+    - PlushieVox

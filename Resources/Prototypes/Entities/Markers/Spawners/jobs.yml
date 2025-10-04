@@ -343,6 +343,19 @@
       - state: green
       - state: hop
 
+# Lawyer
+
+- type: entity
+  id: SpawnPointMagistrat
+  parent: SpawnPointJobBase
+  name: магистрат
+  components:
+  - type: SpawnPoint
+    job_id: Magistrat
+  - type: Sprite
+    layers:
+      - state: green
+
 # Engineering
 
 - type: entity

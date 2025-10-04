@@ -23,7 +23,6 @@
   - Clown
   - HeadOfPersonnel
   - Janitor
-  - Lawyer
   - Librarian
   - Mime
   - Musician
@@ -76,6 +75,17 @@
   - DeathSquad
   primary: false
   weight: 100
+
+- type: department
+  id: lawyer
+  name: Юридический департамент
+  description: Да восторжествует бюрократия!
+  color: "#241149"
+  roles:
+  - Magistrat
+  - Lawyer
+  primary: false
+  weight: 90
 
 - type: department
   id: Engineering

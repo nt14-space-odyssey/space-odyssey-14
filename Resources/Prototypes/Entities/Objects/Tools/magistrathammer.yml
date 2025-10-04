@@ -1,0 +1,21 @@
+- type: entity
+  parent: BaseItem
+  id: MagistratHammer
+  name: молоточек судьи
+  description: Этим предметом бьют судьи.
+  components:
+  - type: Sprite
+    sprite: Objects/Tools/MagistratHammer.rsi
+    state: icon
+  - type: Appearance
+  - type: MeleeWeapon
+    attackRate: 1
+    damage:
+      groups:
+        Brute: 1
+    soundHit:
+      path: /Audio/Items/magistrathammer.ogg
+  - type: Item
+    size: Small
+  - type: StaticPrice
+    price: 300

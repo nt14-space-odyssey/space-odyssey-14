@@ -1,0 +1,35 @@
+# Jumpsuit
+- type: loadout
+  id: MagistratJumpsuitA
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitMagistrat
+
+- type: loadout
+  id: MagistratJumpsuitB
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitLawyerBlack
+
+- type: loadout
+  id: MagistratJumpskirtA
+  equipment:
+    jumpsuit: ClothingUniformJumpskirtLawyerBlack
+
+# Neck
+- type: loadout
+  id: MagistratNeck
+  equipment:
+    neck: ClothingNeckMagistratbadge
+
+# Head
+- type: loadout
+  id: MagistratPwigA
+  equipment:
+    head: ClothingHeadHatPwig
+
+- type: loadout
+  id: MagistratPwigB
+  equipment:
+    head: ClothingHeadHatPwigB
+
+# OuterClothing
+

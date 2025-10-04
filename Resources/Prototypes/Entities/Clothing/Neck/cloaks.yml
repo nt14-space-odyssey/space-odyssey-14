@@ -128,6 +128,17 @@
 
 - type: entity
   parent: ClothingNeckBase
+  id: ClothingNeckCloakXlewdest
+  name: плащ Хлевдеста
+  description: ЛИМИТИРОВАННАЯ КОЛЛЕКЦИЯ!!!
+  components:
+  - type: Sprite
+    sprite: Clothing/Neck/Cloaks/xd.rsi
+  - type: StealTarget
+    stealGroup: HeadCloak
+
+- type: entity
+  parent: ClothingNeckBase
   id: ClothingNeckCloakSalvagerSupreme
   name: supereme salvager's cloak
   description: Worn by the most skilled salvagers, for one who has mastered space and made the mining asteroid his domain. They don't just hand these things out, y'know?

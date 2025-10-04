@@ -272,6 +272,13 @@
   - MagistratNeck
   - LawyerNeck
 
+- type: loadoutGroup
+  id: MagistratHead
+  name: Магистрат, парик
+  loadouts:
+  - MagistratPwigA
+  - MagistratPwigB
+
 # Civilian
 - type: loadoutGroup
   id: PassengerJumpsuit

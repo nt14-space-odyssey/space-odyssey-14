@@ -32,8 +32,6 @@
     shoes: ClothingShoesBootsLaceup
     id: MagistratPDA
     ears: ClothingHeadsetMagistrat
-    head: ClothingHeadHatPwig
-    outerclothing: ClothingOuterRobesJudge
     eyes: ClothingEyesGlassesSecurity
   inhand:
     - BriefcaseBrownFilled

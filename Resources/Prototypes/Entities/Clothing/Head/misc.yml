@@ -89,13 +89,27 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatPwig
-  name: pwig
+  name: Парик
   description: To be honest, those look ridiculous.
   components:
   - type: Sprite
     sprite: Clothing/Head/Misc/pwig.rsi
   - type: Clothing
     sprite: Clothing/Head/Misc/pwig.rsi
+  - type: HideLayerClothing
+    slots:
+    - HeadTop
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatPwigB
+  name: Парик
+  description: To be honest, those look ridiculous.
+  components:
+  - type: Sprite
+    sprite: Clothing/Head/Misc/pwigB.rsi
+  - type: Clothing
+    sprite: Clothing/Head/Misc/pwigB.rsi
   - type: HideLayerClothing
     slots:
     - HeadTop

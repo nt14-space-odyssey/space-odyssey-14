@@ -58,6 +58,7 @@
   id: JobMagistrat
   groups:
   - GroupTankHarness
+  - MagistratHead
   - MagistratNeck
   - MagistratJumpsuit
   - CommonBackpack

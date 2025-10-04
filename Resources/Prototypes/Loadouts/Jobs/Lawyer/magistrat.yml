@@ -19,3 +19,14 @@
   id: MagistratNeck
   equipment:
     neck: ClothingNeckMagistratbadge
+
+# Head
+- type: loadout
+  id: MagistratPwigA
+  equipment:
+    head: ClothingHeadHatPwig
+
+- type: loadout
+  id: MagistratPwigB
+  equipment:
+    head: ClothingHeadHatPwigB

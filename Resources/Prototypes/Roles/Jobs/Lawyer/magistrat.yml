@@ -31,6 +31,7 @@
   equipment:
     shoes: ClothingShoesBootsLaceup
     id: MagistratPDA
+    outerClothing: ClothingOuterRobesJudge
     ears: ClothingHeadsetMagistrat
     eyes: ClothingEyesGlassesSecurity
   inhand:

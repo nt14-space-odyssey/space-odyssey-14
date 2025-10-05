@@ -89,8 +89,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatPwig
-  name: Парик
-  description: To be honest, those look ridiculous.
+  name: парик
+  description: Парик важной шишки.
   components:
   - type: Sprite
     sprite: Clothing/Head/Misc/pwig.rsi
@@ -103,8 +103,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatPwigB
-  name: Парик
-  description: To be honest, those look ridiculous.
+  name: парик
+  description: Парик важной шишки.
   components:
   - type: Sprite
     sprite: Clothing/Head/Misc/pwigB.rsi

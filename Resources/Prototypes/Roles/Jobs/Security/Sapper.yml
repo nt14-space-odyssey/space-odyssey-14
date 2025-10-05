@@ -7,6 +7,7 @@
     - !type:DepartmentTimeRequirement
       department: Security
       time: 36000 #10 hrs
+  weight: 3
   startingGear: SecuritySapperGear
   icon: "JobIconSecuritySapper"
   supervisors: job-supervisors-hos
@@ -40,3 +41,4 @@
     - HoloprojectorSapper
     - ClothingOuterSuitBomb
     - ClothingHeadHelmetBombSuit
+    - RubberStampSapper

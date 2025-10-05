@@ -22,3 +22,5 @@ stamp-component-stamped-name-psychologist = Психолог
 stamp-component-stamped-name-wizard = Волшебник
 stamp-component-stamped-name-blueshield = Синий Щит
 stamp-component-stamped-name-magistrat = Магистрат
+stamp-component-stamped-name-sapper = Сапёр
+stamp-component-stamped-name-iaa = Агент Внутренних Дел

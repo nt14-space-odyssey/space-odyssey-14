@@ -7,14 +7,13 @@
   components:
   - type: StorageFill
     contents:
-      - id: WeaponRevolverDeckard
-      - id: SpeedLoaderMagnum
-      - id: SpeedLoaderMagnum
-      - id: SpeedLoaderMagnum
+      - id: Stunbaton
       - id: Zipties
       - id: Zipties
       - id: EmergencyMedipen
       - id: EmergencyMedipen
+      - id: CombatMedipen
+      - id: CombatMedipen
       - id: CombatMedipen
   - type: Sprite
     sprite: Clothing/Belt/webbing_blueshield.rsi
@@ -31,4 +30,3 @@
     sprite: Clothing/Belt/webbing_blueshield.rsi
   - type: Clothing
     sprite: Clothing/Belt/webbing_blueshield.rsi
-    

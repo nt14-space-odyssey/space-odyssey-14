@@ -1,0 +1,26 @@
+# Jumpsuit
+- type: loadout
+  id: BrigmedJumpsuit
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitBrigmedic
+
+- type: loadout
+  id: BrigmedJumpskirt
+  equipment:
+    jumpsuit: ClothingUniformJumpskirtBrigmedic
+
+# Back
+- type: loadout
+  id: BrigmedBackpack
+  equipment:
+    back: ClothingBackpackBrigmedic
+
+- type: loadout
+  id: BrigmedSatchel
+  equipment:
+    back: ClothingBackpackSatchelBrigmedic
+
+- type: loadout
+  id: BrigmedDuffel
+  equipment:
+    back: ClothingBackpackDuffelBrigmedic

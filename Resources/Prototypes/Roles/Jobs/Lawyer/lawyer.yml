@@ -5,7 +5,7 @@
   playTimeTracker: JobLawyer
   requirements:
     - !type:OverallPlaytimeRequirement
-      time: 9000 # 2.5 hrs
+      time: 18000 # 5 hrs
   startingGear: LawyerGear
   icon: "JobIconLawyer"
   supervisors: Агенту Внутренних Дел и Магистрату

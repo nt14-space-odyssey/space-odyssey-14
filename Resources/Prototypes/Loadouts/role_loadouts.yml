@@ -42,13 +42,24 @@
 # Lawyer
 
 - type: roleLoadout
+  id: JobIAA
+  groups:
+  - GroupTankHarness
+  - LawyerNeck
+  - LawyerJumpsuit
+  - CommonBackpack
+  - Survival
+  - Trinkets
+  - GroupSpeciesBreathTool
+  - plushie
+
+- type: roleLoadout
   id: JobLawyer
   groups:
   - GroupTankHarness
   - LawyerNeck
   - LawyerJumpsuit
   - CommonBackpack
-  - Glasses
   - Survival
   - Trinkets
   - GroupSpeciesBreathTool
@@ -447,6 +458,18 @@
   - SecurityShoes
   - SecurityPDA
   - SecurityBelt
+  - SurvivalSecurity
+  - Trinkets
+  - SecurityStar
+  - GroupSpeciesBreathToolSecurity
+  - plushie
+
+- type: roleLoadout
+  id: JobBrigmedic
+  groups:
+  - BrigmedJumpsuit
+  - BrigmedBackpack
+  - SecurityShoes
   - SurvivalSecurity
   - Trinkets
   - SecurityStar

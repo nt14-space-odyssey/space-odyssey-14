@@ -1,0 +1,12 @@
+- type: entity
+  name: печать сапёра
+  parent: RubberStampBase
+  id: RubberStampSapper
+  categories: [ DoNotMap ]
+  components:
+  - type: Stamp
+    stampedName: stamp-component-stamped-name-sapper
+    stampedColor: "#174111"
+    stampState: "paper_stamp-sapper"
+  - type: Sprite
+    state: stamp-sapper

@@ -1138,6 +1138,21 @@
   - TrooperUniform
 
 - type: loadoutGroup
+  id: BrigmedJumpsuit
+  name: loadout-group-security-jumpsuit
+  loadouts:
+  - BrigmedJumpsuit
+  - BrigmedJumpskirt
+
+- type: loadoutGroup
+  id: BrigmedBackpack
+  name: loadout-group-security-backpack
+  loadouts:
+  - BrigmedBackpack
+  - BrigmedSatchel
+  - BrigmedDuffel
+
+- type: loadoutGroup
   id: SecurityBackpack
   name: loadout-group-security-backpack
   loadouts:

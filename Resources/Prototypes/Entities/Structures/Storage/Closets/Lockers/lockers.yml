@@ -87,6 +87,20 @@
   - type: AccessReader
     access: [["HeadOfPersonnel"]]
 
+# BlueShield
+- type: entity
+  id: LockerBlueShieldOfficer
+  parent: LockerBaseSecure
+  name: шкаф офицера "Синий Щит"
+  components:
+  - type: Appearance
+  - type: EntityStorageVisuals
+    stateBaseClosed: blueshield
+    stateDoorOpen: blueshield_open
+    stateDoorClosed: blueshield_door
+  - type: AccessReader
+    access: [["CentralCommand"]]
+
 # CE
 - type: entity
   id: LockerChiefEngineer

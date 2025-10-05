@@ -36,11 +36,10 @@
     id: BlueShieldPDA
     ears: ClothingHeadsetAltBlueShield
     outerClothing: ClothingOuterArmorBasicBlueShield
-    back: ClothingBackpackBlueShield
+    mask: ClothingMaskGasBlueShield
   storage:
     back:
     - Flash
     - MedkitCombatFilled
-    - WeaponDisabler
-    - WeaponBlueShieldLaser
+    - HandheldCrewMonitor
     # - StationCharter

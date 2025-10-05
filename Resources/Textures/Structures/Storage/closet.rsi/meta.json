@@ -35,6 +35,15 @@
             "name": "brigmedic"
         },
         {
+            "name": "blueshield_door"
+        },
+        {
+            "name": "blueshield_open"
+        },
+        {
+            "name": "blueshield"
+        },
+        {
             "name": "armory"
         },
         {

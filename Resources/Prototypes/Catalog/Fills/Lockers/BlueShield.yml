@@ -1,0 +1,50 @@
+- type: entityTable
+  id: LockerFillBlueShieldAll
+  table: !type:AllSelector
+    children:
+    - id: WeaponDisabler
+    - id: WeaponBlueShieldLaser
+    - id: PinpointerUniversal
+    - id: PinpointerNuclear
+    - id: MedkitCombatFilled
+    - id: ClothingOuterHardsuitBlueShield
+    - id: ClothingMaskGasBlueShield
+    - id: RubberStampBlueShield
+    - id: ClothingBeltWebbingBlueShieldFilled
+    - id: ClothingBeltBlueShieldFilled
+    - id: ClothingMaskGasBlueShield
+    - id: TrackingImplanter
+
+- type: entityTable
+  id: LockerFillBlueShield
+  table: !type:AllSelector
+    children:
+    - id: WeaponDisabler
+    - id: WeaponBlueShieldLaser
+    - id: PinpointerUniversal
+    - id: PinpointerNuclear
+    - id: MedkitCombatFilled
+    - id: ClothingMaskGasBlueShield
+    - id: RubberStampBlueShield
+    - id: ClothingBeltWebbingBlueShieldFilled
+    - id: ClothingBeltBlueShieldFilled
+
+- type: entity
+  id: LockerBlueShieldOfficerFilledAll
+  suffix: Filled, Скафандр
+  parent: LockerBlueShieldOfficer
+  components:
+  - type: EntityTableContainerFill
+    containers:
+      entity_storage: !type:NestedSelector
+        tableId: LockerFillBlueShieldAll
+
+- type: entity
+  id: LockerBlueShieldOfficerFilled
+  suffix: Filled
+  parent: LockerBlueShieldOfficer
+  components:
+  - type: EntityTableContainerFill
+    containers:
+      entity_storage: !type:NestedSelector
+        tableId: LockerFillBlueShield

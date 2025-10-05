@@ -101,6 +101,14 @@
 
 - type: jobIcon
   parent: JobIcon
+  id: JobIconIAA
+  icon:
+    sprite: /Textures/Interface/Misc/job_icons.rsi
+    state: IAA
+  jobName: job-name-IAA
+
+- type: jobIcon
+  parent: JobIcon
   id: JobIconLawyer
   icon:
     sprite: /Textures/Interface/Misc/job_icons.rsi

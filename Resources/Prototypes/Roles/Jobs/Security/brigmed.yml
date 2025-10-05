@@ -1,0 +1,45 @@
+- type: job
+  id: Brigmedic
+  name: Бригмедик
+  description: Обследуйте и лечите сотрудников Службы Безопасности на поле боя, или в лазарете. Оказывайте медицинскую помощь заключённому который решил что потрогать лампочку будет забавной идеей.
+  playTimeTracker: JobSecurityBrigmed
+  requirements:
+    - !type:DepartmentTimeRequirement
+      department: Security
+      time: 36000 #10 hrs
+    - !type:DepartmentTimeRequirement
+      department: Medical
+      time: 36000 #10 hrs
+  weight: 5
+  startingGear: SecurityBrigmedGear
+  icon: "JobIconBrigmedic"
+  supervisors: job-supervisors-hos
+  canBeAntag: false
+  access:
+  - Security
+  - Brig
+  - Medical
+  - Maintenance
+  - Service
+  - External
+  - Cryogenics
+  special:
+  - !type:AddImplantSpecial
+    implants: [ MindShieldImplant ]
+
+- type: startingGear
+  id: SecurityBrigmedGear
+  equipment:
+    head: ClothingHeadHatBeretBrigmedic
+    eyes: ClothingEyesGlassesSecurity
+    ears: ClothingHeadsetBrigmedic
+    pocket1: WeaponPistolMk58
+    gloves: ClothingHandsGlovesNitrile
+    id: BrigmedicPDA
+    belt: ClothingBeltMedicalFilled
+    outerClothing: ClothingOuterCoatAMG
+
+  storage:
+    back:
+    - Flash
+    - MagazinePistol

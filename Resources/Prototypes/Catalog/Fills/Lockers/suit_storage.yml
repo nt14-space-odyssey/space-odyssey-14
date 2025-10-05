@@ -185,6 +185,28 @@
     - id: ClothingOuterHardsuitSecurity
     - id: ClothingMaskBreath
 
+#blueshield hardsuit
+- type: entity
+  id: SuitStorageBlueShield
+  parent: SuitStorageBase
+  name: хранилище скафандра
+  suffix: Синий Щит
+  components:
+  - type: EntityTableContainerFill
+    containers:
+      entity_storage: !type:NestedSelector
+        tableId: FillSuitStorageBlueShield
+  - type: AccessReader
+    access: [["CentralCommand"]]
+
+- type: entityTable
+  id: FillSuitStorageBlueShield
+  table: !type:AllSelector
+    children:
+    - id: OxygenTankFilled
+    - id: ClothingOuterHardsuitBlueShield
+    - id: ClothingMaskGasBlueShield
+
 #CE's hardsuit
 - type: entity
   id: SuitStorageCE

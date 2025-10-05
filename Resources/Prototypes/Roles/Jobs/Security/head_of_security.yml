@@ -16,7 +16,7 @@
     - !type:DepartmentTimeRequirement
       department: Security
       time: 36000 # 10 hrs
-  weight: 10
+  weight: 7
   startingGear: HoSGear
   icon: "JobIconHeadOfSecurity"
   supervisors: job-supervisors-captain

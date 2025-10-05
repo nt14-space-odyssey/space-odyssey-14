@@ -25,7 +25,7 @@
   name: Юридический
   keycode: 'ю' # RU-Localization
   frequency: 1984
-  color: "#470089"
+  color: "#6f56b8"
 
 - type: radioChannel
   id: Engineering

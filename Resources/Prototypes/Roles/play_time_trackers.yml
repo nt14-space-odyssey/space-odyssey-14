@@ -19,6 +19,9 @@
 - type: playTimeTracker
   id: JobBlueShieldOfficer
 
+- type: playTimeTracker
+  id: JobSecurityBrigmed
+
 - type: playTimeTracker # Used as a tracker for all borgs and midround borging.
   id: JobBorg
 

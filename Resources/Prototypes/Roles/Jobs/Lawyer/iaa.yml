@@ -1,0 +1,41 @@
+- type: job
+  id: IAA
+  name: Агент Внутренних Дел
+  description: Следите за соблюдением СРП на станции и проводите служебные расследования. Выступайте на допросах в качестве адвоката и руководите Юристами.
+  playTimeTracker: JobIAA
+  requirements:
+    - !type:DepartmentTimeRequirement
+      department: Security
+      time: 54000 # 10 hours
+    - !type:DepartmentTimeRequirement
+      department: Lawyer
+      time: 18000 # 10 hours
+  weight: 9
+  startingGear: IAAGear
+  icon: "JobIconIAA"
+  supervisors: Магистрату
+  access:
+  - Lawyer
+  - Brig
+  - Maintenance
+  - Command
+  special:
+  - !type:AddImplantSpecial
+    implants: [ MindShieldImplant ]
+  - !type:AddComponentSpecial
+    components:
+      - type: CommandStaff
+
+- type: startingGear
+  id: IAAGear
+  equipment:
+    shoes: ClothingShoesBootsLaceup
+    id: IAAPDA
+    ears: ClothingHeadsetIAA
+    eyes: ClothingEyesGlassesSecurity
+  inhand:
+    - BriefcaseBrownFilled
+  storage:
+    back:
+    - RubberStampIAA
+    - BookSpaceLaw

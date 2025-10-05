@@ -6,10 +6,13 @@
   requirements:
     - !type:DepartmentTimeRequirement
       department: Security
-      time: 180000 # 50 hours
+      time: 144000 # 40 hours
     - !type:DepartmentTimeRequirement
       department: Command
       time: 108000 # 30 hours
+    - !type:DepartmentTimeRequirement
+      department: Lawyer
+      time: 18000 # 10 hours
   weight: 10
   startingGear: MagistratGear
   icon: "JobIconMagistrat"

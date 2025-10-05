@@ -130,6 +130,17 @@
     heldPrefix: pen_magistrat
 
 - type: entity
+  name: ручка АВД
+  parent: [BaseAdvancedPen, BaseCentcommContraband]
+  id: PenIAA
+  description: Ручка агента...
+  components:
+  - type: Sprite
+    state: pen_iaa
+  - type: Item
+    heldPrefix: pen_iaa
+
+- type: entity
   name: captain's fountain pen
   parent: PenEmbeddable
   id: PenCap

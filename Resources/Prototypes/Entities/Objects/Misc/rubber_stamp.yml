@@ -51,6 +51,19 @@
     state: stamp-cap
 
 - type: entity
+  name: печать агента внутренних дел
+  parent: [RubberStampBase, BaseCommandContraband]
+  id: RubberStampIAA
+  categories: [ DoNotMap ]
+  components:
+  - type: Stamp
+    stampedName: stamp-component-stamped-name-iaa
+    stampedColor: "#01a100"
+    stampState: "paper_stamp-iaa"
+  - type: Sprite
+    state: stamp-iaa
+
+- type: entity
   name: CentComm rubber stamp
   parent: RubberStampBase
   id: RubberStampCentcom

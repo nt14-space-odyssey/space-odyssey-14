@@ -23,6 +23,7 @@
             BlueShieldOfficer: [ 1, 1 ]
             #lawyer (1)
             Magistrat: [ 1, 1 ]
+            IAA: [ 1, 1 ]
             #service (4)
             Bartender: [ 1, 1 ]
             Botanist: [ 1, 1 ]

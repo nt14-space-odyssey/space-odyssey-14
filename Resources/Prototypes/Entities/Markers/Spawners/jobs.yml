@@ -356,6 +356,17 @@
     layers:
       - state: green
 
+- type: entity
+  id: SpawnPointIAA
+  parent: SpawnPointJobBase
+  name: агент внутренних дел
+  components:
+  - type: SpawnPoint
+    job_id: IAA
+  - type: Sprite
+    layers:
+      - state: green
+
 # Engineering
 
 - type: entity

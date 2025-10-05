@@ -77,12 +77,13 @@
   weight: 100
 
 - type: department
-  id: lawyer
+  id: Lawyer
   name: Юридический департамент
   description: Да восторжествует бюрократия!
-  color: "#241149"
+  color: "#6f56b8"
   roles:
   - Magistrat
+  - IAA
   - Lawyer
   primary: false
   weight: 90

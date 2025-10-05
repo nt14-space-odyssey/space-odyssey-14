@@ -42,13 +42,24 @@
 # Lawyer
 
 - type: roleLoadout
+  id: JobIAA
+  groups:
+  - GroupTankHarness
+  - LawyerNeck
+  - LawyerJumpsuit
+  - CommonBackpack
+  - Survival
+  - Trinkets
+  - GroupSpeciesBreathTool
+  - plushie
+
+- type: roleLoadout
   id: JobLawyer
   groups:
   - GroupTankHarness
   - LawyerNeck
   - LawyerJumpsuit
   - CommonBackpack
-  - Glasses
   - Survival
   - Trinkets
   - GroupSpeciesBreathTool

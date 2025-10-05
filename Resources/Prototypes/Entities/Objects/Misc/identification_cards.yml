@@ -148,6 +148,18 @@
 
 - type: entity
   parent: IDCardStandard
+  id: IAAIDCard
+  name: ID карта Агента Внутренних Дел
+  components:
+  - type: Sprite
+    layers:
+    - state: silver
+    - state: idiaa
+  - type: PresetIdCard
+    job: IAA
+
+- type: entity
+  parent: IDCardStandard
   id: WardenIDCard
   name: warden ID card
   components:

@@ -267,6 +267,30 @@
     state: pda-magistrat
 
 - type: entity
+  parent: BaseSecurityPDA
+  id: IAAPDA
+  name: КПК Агента Внутренних Дел
+  description: Агентский...
+  components:
+  - type: Pda
+    id: IAAIDCard
+    penSlot:
+      startingItem: PenIAA
+      priority: -1
+      whitelist:
+        tags:
+        - Write
+  - type: Appearance
+    appearanceDataInit:
+     enum.PdaVisuals.PdaType:
+       !type:String
+       pda-iaa
+  - type: PdaBorderColor
+    borderColor: "#45707a"
+  - type: Icon
+    state: pda-iaa
+
+- type: entity
   parent: BasePDA
   id: ResearchAssistantPDA
   name: research assistant PDA

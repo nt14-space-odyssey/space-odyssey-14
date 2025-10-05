@@ -38,6 +38,7 @@
             #science (1)
             Scientist: [ 1, 1 ]
             #security (1 - 3)
+            Brigmedic: [ 1, 1 ]
             SecurityOfficer: [ 1, 3 ]
             SecuritySapper: [ 1, 1 ]
             #supply (2)

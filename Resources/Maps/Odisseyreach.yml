@@ -4,8 +4,8 @@ meta:
   engineVersion: 266.0.0
   forkId: ""
   forkVersion: ""
-  time: 10/05/2025 12:05:13
-  entityCount: 2646
+  time: 10/05/2025 13:29:39
+  entityCount: 2647
 maps:
 - 1
 grids:
@@ -12280,6 +12280,13 @@ entities:
     - type: Transform
       pos: -14.5,4.5
       parent: 2
+- proto: LockerBrigmedicFilled
+  entities:
+  - uid: 2078
+    components:
+    - type: Transform
+      pos: 19.5,-4.5
+      parent: 2
 - proto: LockerCaptainFilledHardsuit
   entities:
   - uid: 1647
@@ -13681,7 +13688,7 @@ entities:
   - uid: 1839
     components:
     - type: Transform
-      pos: 19.12654,-4.309994
+      pos: 18.624735,-4.5486712
       parent: 2
   - uid: 1855
     components:
@@ -13718,7 +13725,7 @@ entities:
   - uid: 1843
     components:
     - type: Transform
-      pos: 19.548414,-4.591244
+      pos: 18.490976,-4.4892063
       parent: 2
 - proto: SheetSteel
   entities:
@@ -13740,7 +13747,7 @@ entities:
   - uid: 1848
     components:
     - type: Transform
-      pos: 19.704664,-4.278744
+      pos: 18.357218,-4.6378684
       parent: 2
   - uid: 1944
     components:
@@ -14913,6 +14920,13 @@ entities:
     - type: Transform
       pos: -13.5,4.5
       parent: 2
+- proto: SpawnPointBrigmedic
+  entities:
+  - uid: 2647
+    components:
+    - type: Transform
+      pos: 19.5,-3.5
+      parent: 2
 - proto: SpawnPointCaptain
   entities:
   - uid: 1981
@@ -15614,11 +15628,6 @@ entities:
     components:
     - type: Transform
       pos: 18.5,-2.5
-      parent: 2
-  - uid: 2078
-    components:
-    - type: Transform
-      pos: 19.5,-4.5
       parent: 2
   - uid: 2079
     components:

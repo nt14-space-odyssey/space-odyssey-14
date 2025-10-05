@@ -465,6 +465,18 @@
   - plushie
 
 - type: roleLoadout
+  id: JobBrigmedic
+  groups:
+  - BrigmedJumpsuit
+  - BrigmedBackpack
+  - SecurityShoes
+  - SurvivalSecurity
+  - Trinkets
+  - SecurityStar
+  - GroupSpeciesBreathToolSecurity
+  - plushie
+
+- type: roleLoadout
   id: JobDetective
   groups:
   - DetectiveHead

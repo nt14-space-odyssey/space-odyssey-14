@@ -344,7 +344,7 @@
 - type: entity
   parent: BasePlushie
   id: PlushieLizard #Weh!
-  name: плюшевый унатя
+  name: плюшевый унатик
   description: An adorable stuffed toy that resembles a lizardperson. Made by CentComm as a token initiative to combat speciesism in work environments. "Welcome your new colleagues as you do this plush, with open arms!"
   components:
   - type: Sprite
@@ -458,7 +458,7 @@
 - type: entity
   parent: PlushieLizard
   id: PlushieRainbowLizard #Weh but gay
-  name: разноцветный плюшевый унатя
+  name: разноцветный плюшевый унатик
   description: An adorable stuffed toy that resembles a lizardperson of every color. You just might trip while staring at it...
   components:
   - type: Sprite
@@ -494,7 +494,7 @@
 - type: entity
   parent: PlushieLizard
   id: PlushieSpaceLizard #ᵂᵉʰ!
-  name: космический плюшевый унатя
+  name: космический плюшевый унатик
   description: An adorable stuffed toy that resembles a lizardperson in an EVA suit. Made by CentComm as a token initiative to combat speciesism in space environments. "Welcome your new colleagues as you do this plush, with open arms!"
   components:
   - type: Sprite

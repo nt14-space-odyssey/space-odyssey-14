@@ -12,8 +12,8 @@
        !type:String
        pda-blueshield
   - type: PdaBorderColor
-    borderColor: "#d7d7d0"
-    accentHColor: "#0000ff"
-    accentVColor: "#0000ff"
+    borderColor: "#0000ff"
+    accentHColor: "#d7d7d0"
+    accentVColor: "#d7d7d0"
   - type: Icon
     state: pda-blueshield

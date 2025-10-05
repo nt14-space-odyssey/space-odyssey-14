@@ -13,6 +13,34 @@
       - id: NetworkConfigurator
 
 - type: entity
+  id: ClothingBeltSapperFilled
+  parent: ClothingBeltSapper
+  suffix: Заполненный
+  components:
+  - type: StorageFill
+    contents:
+      - id: CrowbarGreen
+      - id: Wrench
+      - id: Screwdriver
+      - id: Wirecutter
+      - id: Welder
+      - id: Multitool
+
+- type: entity
+  id: ClothingBeltSapperWebbingFilled
+  parent: ClothingBeltSapperWebbing
+  suffix: Заполненный
+  components:
+  - type: StorageFill
+    contents:
+      - id: CrowbarGreen
+      - id: Wrench
+      - id: Screwdriver
+      - id: Wirecutter
+      - id: Welder
+      - id: Multitool
+
+- type: entity
   id: ClothingBeltUtilityEngineering
   parent: ClothingBeltUtility
   suffix: Engineering
@@ -50,16 +78,6 @@
     - id: Handcuffs
     - id: HoloprojectorSecurity
     - id: RadioHandheldSecurity
-
-- type: entity
-  id: ClothingBeltBlueShieldFilled
-  parent: ClothingBeltBlueShield
-  suffix: Filled
-  components:
-  - type: EntityTableContainerFill
-    containers:
-      storagebase: !type:NestedSelector
-        tableId: BeltSecurityEntityTable
 
 - type: entity
   id: ClothingBeltSecurityFilled

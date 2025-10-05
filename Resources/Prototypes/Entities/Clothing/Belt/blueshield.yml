@@ -1,8 +1,9 @@
 - type: entity
-  parent: [ClothingBeltStorageBase, ContentsExplosionResistanceBase, BaseSecurityContraband]
-  id: ClothingBeltBlueShield
+  parent: [ClothingBeltStorageBase, ContentsExplosionResistanceBase, BaseCommandContraband]
+  id: ClothingBeltBlueShieldFilled
   name: пояс офицера "Синий Щит"
   description: Обычный перекрашеный пояс сб.
+  suffix: Заполненный
   components:
   - type: Sprite
     sprite: Clothing/Belt/blueshield.rsi
@@ -34,6 +35,16 @@
         - DoorRemote
         - Whistle
         - BalloonPopper
+  - type: StorageFill
+    contents:
+      - id: Stunbaton
+      - id: Zipties
+      - id: Zipties
+      - id: EmergencyMedipen
+      - id: EmergencyMedipen
+      - id: CombatMedipen
+      - id: CombatMedipen
+      - id: CombatMedipen
   - type: ItemMapper
     mapLayers:
       flashbang:

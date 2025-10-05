@@ -12,6 +12,7 @@
        !type:String
        pda-sapper
   - type: PdaBorderColor
-    borderColor: "#106d20"
+    borderColor: "#cc4242"
+    accentVColor: "#106d20"
   - type: Icon
     state: pda-sapper

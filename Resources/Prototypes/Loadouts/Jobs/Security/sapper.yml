@@ -2,12 +2,12 @@
 - type: loadout
   id: SapperWebbing
   equipment:
-    belt: ClothingBeltSapperWebbing
+    belt: ClothingBeltSapperWebbingFilled
 
 - type: loadout
   id: SapperBelt
   equipment:
-    belt: ClothingBeltSapper
+    belt: ClothingBeltSapperFilled
 
 - type: loadout
   id: SapperHead

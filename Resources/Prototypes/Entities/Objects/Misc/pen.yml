@@ -119,7 +119,7 @@
     heldPrefix: pen_centcom
 
 - type: entity
-  name: Ручка судьи
+  name: ручка судьи
   parent: [BaseAdvancedPen, BaseCentcommContraband]
   id: PenMagistrat
   description: Ручка справедливого судьи для справедливого суда!

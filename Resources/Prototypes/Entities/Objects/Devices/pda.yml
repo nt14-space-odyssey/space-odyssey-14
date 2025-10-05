@@ -248,14 +248,21 @@
   components:
   - type: Pda
     id: MagistratIDCard
+    penSlot:
+      startingItem: PenMagistrat
+      priority: -1
+      whitelist:
+        tags:
+        - Write
   - type: Appearance
     appearanceDataInit:
      enum.PdaVisuals.PdaType:
        !type:String
        pda-magistrat
   - type: PdaBorderColor
-    borderColor: "#8a8130"
-    accentVColor: "#222219"
+    borderColor: "#222219"
+    accentVColor: "#8a8130"
+    accentHColor: "#8a8130"
   - type: Icon
     state: pda-magistrat
 
